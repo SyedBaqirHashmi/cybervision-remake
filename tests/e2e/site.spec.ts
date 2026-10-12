@@ -89,7 +89,7 @@ test('consultation validates, reviews, handles delivery failure and retries', as
   await form.getByRole('button', {
     name: 'Send enquiry'
   }).click();
-  await expect(page.getByRole('alert')).toContainText('Delivery is unavailable');
+  await expect(form.getByRole('alert')).toContainText('Delivery is unavailable');
   await expect(page.getByText('A good conversation starts here.')).toHaveCount(0);
   await page.unroute('**/api/inquiries');
   await page.route('**/api/inquiries', route => route.fulfill({
