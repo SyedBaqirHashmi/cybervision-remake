@@ -2,6 +2,7 @@
 
 import { MotionConfig } from 'framer-motion';
 import type { ReactNode } from 'react';
+import '@/lib/gsap';
 export function MotionProvider({
   children
 }: {

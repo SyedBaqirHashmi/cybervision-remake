@@ -11,23 +11,23 @@ const columns = [{
   links: [['Enterprise products', '/#products'], ['Selected work', '/#products'], ['Startup ecosystem', '/#startups'], ['Company', '/#company']]
 }];
 export function Footer() {
-  return <footer className="border-t border-slate-800 bg-slate-950">
+  return <footer className="border-t border-stone-800 bg-stone-950">
   <div className="shell">
     <div className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-[1.25fr_.75fr_.75fr_1.25fr]">
       <div>
         <Logo />
-        <p className="mt-5 max-w-xs text-xs leading-6 text-slate-400">Engineering intelligent solutions.<br />Creating possibilities for people.</p>
-        <address className="mt-5 max-w-xs text-[11px] not-italic leading-6 text-slate-400">
+        <p className="mt-5 max-w-xs text-xs leading-6 text-stone-400">Engineering intelligent solutions.<br />Creating possibilities for people.</p>
+        <address className="mt-5 max-w-xs text-[11px] not-italic leading-6 text-stone-400">
           {company.address}
         </address>
         <div className="mt-5 flex gap-3">
-          <a href={`mailto:${company.email}`} aria-label="Email CyberVision" className="grid size-11 place-items-center rounded-full border border-slate-700 text-slate-300 hover:border-cyan-300 hover:text-cyan-200">
+          <a href={`mailto:${company.email}`} aria-label="Email CyberVision" className="grid size-11 place-items-center rounded-full border border-stone-700 text-stone-300 hover:border-gold-300 hover:text-gold-200">
             <Mail size={17} />
           </a>
-          <a href={company.phoneHref} aria-label="Call CyberVision" className="grid size-11 place-items-center rounded-full border border-slate-700 text-slate-300 hover:border-cyan-300 hover:text-cyan-200">
+          <a href={company.phoneHref} aria-label="Call CyberVision" className="grid size-11 place-items-center rounded-full border border-stone-700 text-stone-300 hover:border-gold-300 hover:text-gold-200">
             <Phone size={17} />
           </a>
-          <a href="https://www.linkedin.com/company/cybervision-international" target="_blank" rel="noopener noreferrer" aria-label="CyberVision International on LinkedIn" className="grid size-11 place-items-center rounded-full border border-slate-700 text-slate-300 hover:border-cyan-300 hover:text-cyan-200">
+          <a href="https://www.linkedin.com/company/cybervision-international" target="_blank" rel="noopener noreferrer" aria-label="CyberVision International on LinkedIn" className="grid size-11 place-items-center rounded-full border border-stone-700 text-stone-300 hover:border-gold-300 hover:text-gold-200">
             <Linkedin size={17} />
           </a>
         </div>
@@ -38,7 +38,7 @@ export function Footer() {
         </h2>
         <ul className="space-y-1">
           {column.links.map(([label, href]) => <li key={label}>
-            <a href={href} className="inline-flex min-h-10 items-center text-xs text-slate-400 hover:text-cyan-200">
+            <a href={href} className="inline-flex min-h-10 items-center text-xs text-stone-400 hover:text-gold-200">
               {label}
             </a>
           </li>)}
@@ -46,12 +46,12 @@ export function Footer() {
       </nav>)}
       <Newsletter />
     </div>
-    <div className="flex flex-col justify-between gap-5 border-t border-slate-800 py-6 text-[10px] text-slate-400 sm:flex-row">
+    <div className="flex flex-col justify-between gap-5 border-t border-stone-800 py-6 text-[10px] text-stone-400 sm:flex-row">
       <p>© {new Date().getFullYear()} CyberVision International.</p>
       <div className="flex flex-wrap gap-x-5 gap-y-4">
-        <Link href="/privacy" className="hover:text-cyan-200">Privacy notice</Link>
-        <a href="https://cybervision.com.pk/disclaimer/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-200">Company disclaimer</a>
-        <a href="#home" className="hover:text-cyan-200">Back to top ↑</a>
+        <Link href="/privacy" className="hover:text-gold-200">Privacy notice</Link>
+        <a href="https://cybervision.com.pk/disclaimer/" target="_blank" rel="noopener noreferrer" className="hover:text-gold-200">Company disclaimer</a>
+        <a href="#home" className="hover:text-gold-200">Back to top ↑</a>
       </div>
     </div>
   </div>

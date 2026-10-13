@@ -33,9 +33,9 @@ export function Startups() {
     {pillars.map(({
         icon: Icon,
         ...pillar
-      }, index) => <article key={pillar.title} className={`rounded-2xl border p-6 transition sm:p-7 ${expanded === index ? 'border-indigo-400/50 bg-indigo-950/25' : 'border-slate-800 bg-slate-900/30'}`}>
-      <Icon size={29} strokeWidth={1.3} className="mb-8 text-indigo-200" aria-hidden="true" />
-      <p className="mb-3 text-[10px] text-slate-400">
+      }, index) => <article key={pillar.title} className={`rounded-2xl border p-6 transition sm:p-7 ${expanded === index ? 'border-bronze-400/50 bg-bronze-950/25' : 'border-stone-800 bg-stone-900/30'}`}>
+      <Icon size={29} strokeWidth={1.3} className="mb-8 text-bronze-200" aria-hidden="true" />
+      <p className="mb-3 text-[10px] text-stone-400">
         {pillar.summary}
       </p>
       <h3>
@@ -50,15 +50,15 @@ export function Startups() {
           }} transition={{
             duration: reduced ? 0 : .25
           }} className="overflow-hidden">
-          <p className="pt-4 text-sm leading-7 text-slate-400">
+          <p className="pt-4 text-sm leading-7 text-stone-400">
             {pillar.detail}
           </p>
-          <a className="mt-5 inline-flex min-h-11 items-center text-xs text-cyan-200 underline underline-offset-4" href="#contact">Discuss your startup →</a>
+          <a className="mt-5 inline-flex min-h-11 items-center text-xs text-gold-200 underline underline-offset-4" href="#contact">Discuss your startup →</a>
         </motion.div>
     </article>)}
   </div>
-  <p className="mt-7 text-center text-xs text-slate-400">
-    <a className="inline-flex min-h-11 items-center underline underline-offset-4 hover:text-cyan-200" href="https://cybervision.com.pk/business-consulting/" target="_blank" rel="noopener noreferrer">Explore CyberVision’s startup and business consulting</a>
+  <p className="mt-7 text-center text-xs text-stone-400">
+    <a className="inline-flex min-h-11 items-center underline underline-offset-4 hover:text-gold-200" href="https://cybervision.com.pk/business-consulting/" target="_blank" rel="noopener noreferrer">Explore CyberVision’s startup and business consulting</a>
   </p>
   </section>;
 }
