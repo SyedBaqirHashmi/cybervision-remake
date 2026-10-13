@@ -1,3 +1,28 @@
+export const capabilities = [{
+  number: '01',
+  title: 'AI & business automation',
+  text: 'Create smarter workflows. Connect your business processes, applications and enterprise systems around the way your team works.',
+  tags: ['Intelligent workflows', 'Enterprise systems'],
+  href: '#contact'
+}, {
+  number: '02',
+  title: 'Software & cloud engineering',
+  text: 'From a first product to an enterprise platform, build dependable web and mobile experiences around your goals.',
+  tags: ['Web platforms', 'Mobile applications'],
+  href: 'https://cybervision.com.pk/web-development/'
+}, {
+  number: '03',
+  title: 'Internet of Things',
+  text: 'Bring the physical and digital together through connected devices, agricultural technology and operational intelligence.',
+  tags: ['Connected systems', 'Smart agriculture'],
+  href: 'https://cybervision.com.pk/internet-of-things/'
+}, {
+  number: '04',
+  title: 'EdTech & digital training',
+  text: 'Build the capabilities that move people forward. Engaging learning content and digital experiences designed for real understanding.',
+  tags: ['Digital content', 'Skills development'],
+  href: '#trainings'
+}] as const;
 export const company = {
   name: 'CyberVision International',
   email: 'info@cybervision.com.pk',

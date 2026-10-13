@@ -3,39 +3,14 @@
 import { ArrowUpRight, BrainCircuit, Code2, GraduationCap, Radio, Database, Cpu, Workflow } from 'lucide-react';
 import { Reveal } from './ui/reveal';
 import { TiltCard } from './ui/tilt-card';
-const services = [{
-  icon: BrainCircuit,
-  number: '01',
-  title: 'AI & business automation',
-  text: 'Create smarter workflows. Connect your business processes, applications and enterprise systems around the way your team works.',
-  tags: ['Intelligent workflows', 'Enterprise systems'],
-  className: 'md:col-span-7',
-  href: '#contact'
-}, {
-  icon: Code2,
-  number: '02',
-  title: 'Software & cloud engineering',
-  text: 'From a first product to an enterprise platform, build dependable web and mobile experiences around your goals.',
-  tags: ['Web platforms', 'Mobile applications'],
-  className: 'md:col-span-5',
-  href: 'https://cybervision.com.pk/web-development/'
-}, {
-  icon: Radio,
-  number: '03',
-  title: 'Internet of Things',
-  text: 'Bring the physical and digital together through connected devices, agricultural technology and operational intelligence.',
-  tags: ['Connected systems', 'Smart agriculture'],
-  className: 'md:col-span-5',
-  href: 'https://cybervision.com.pk/internet-of-things/'
-}, {
-  icon: GraduationCap,
-  number: '04',
-  title: 'EdTech & digital training',
-  text: 'Build the capabilities that move people forward. Engaging learning content and digital experiences designed for real understanding.',
-  tags: ['Digital content', 'Skills development'],
-  className: 'md:col-span-7',
-  href: '#trainings'
-}];
+import { capabilities } from '@/lib/content';
+const icons = [BrainCircuit, Code2, Radio, GraduationCap];
+const spans = ['md:col-span-7', 'md:col-span-5', 'md:col-span-5', 'md:col-span-7'];
+const services = capabilities.map((capability, index) => ({
+  ...capability,
+  icon: icons[index],
+  className: spans[index]
+}));
 export function BentoServices() {
   return <section id="services" className="section shell" aria-labelledby="services-title">
   <Reveal className="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end">

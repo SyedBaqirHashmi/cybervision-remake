@@ -1,5 +1,6 @@
 import { Header } from '@/components/header';
 import { Hero } from '@/components/hero';
+import { CapabilityRooms } from '@/components/capability-rooms';
 import { BentoServices } from '@/components/bento-services';
 import { Metrics } from '@/components/metrics';
 import { Showcase } from '@/components/showcase';
@@ -44,6 +45,7 @@ export default function Page() {
         </span>)}
       </div>
     </div>
+    <CapabilityRooms />
     <BentoServices />
     <Metrics />
     <Showcase />
