@@ -76,12 +76,12 @@ export const resourceDocuments = caseStudies.filter(study => study.pdfUrl);
 
 /** Training is a company-published figure, not an independently audited statistic. */
 export const trainingStats = [
-  { value: '40,000+', label: 'Youth trained' },
-  { value: '20,000+', label: 'Jobs created' },
-  { value: '24,000+', label: 'Women included' },
-  { value: '50,000+', label: 'Industry linkage and mentoring hours' },
-  { value: '1,500+', label: 'Lesson plans, assessments and training manuals' },
-  { value: '200+', label: 'Curricula developed' }
+  { value: 40000, suffix: '+', label: 'Youth trained' },
+  { value: 20000, suffix: '+', label: 'Jobs created' },
+  { value: 24000, suffix: '+', label: 'Women included' },
+  { value: 50000, suffix: '+', label: 'Industry linkage and mentoring hours' },
+  { value: 1500, suffix: '+', label: 'Lesson plans, assessments and training manuals' },
+  { value: 200, suffix: '+', label: 'Curricula developed' }
 ];
 
 export const companyTechStack = {

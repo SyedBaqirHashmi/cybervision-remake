@@ -3,6 +3,7 @@
 import { BrainCircuit, Code2, Radio, GraduationCap, ChevronDown } from 'lucide-react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { capabilities } from '@/lib/content';
+import { ProgressiveBlur } from './ui/progressive-blur';
 const icons = [BrainCircuit, Code2, Radio, GraduationCap];
 
 /**
@@ -13,6 +14,8 @@ const icons = [BrainCircuit, Code2, Radio, GraduationCap];
 export function CapabilityRooms() {
   const reduced = useReducedMotion();
   return <section aria-label="Capability walkthrough" className="relative border-y border-stone-800">
+  {!reduced && <ProgressiveBlur position="top" backgroundColor="#171310" />}
+  {!reduced && <ProgressiveBlur position="bottom" backgroundColor="#171310" />}
   <div className={reduced ? 'divide-y divide-stone-800' : 'snap-gallery h-[85svh] divide-y divide-stone-800'}>
     {capabilities.map((capability, index) => {
       const Icon = icons[index];

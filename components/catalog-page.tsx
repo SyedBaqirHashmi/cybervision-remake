@@ -4,6 +4,7 @@ import { Footer } from './footer';
 import { Contact } from './contact';
 import { Reveal } from './ui/reveal';
 import { TiltCard } from './ui/tilt-card';
+import { AnimatedNumber } from './ui/animated-number';
 import type { CatalogEntry } from '@/lib/catalog';
 import { caseStudies, clients, companyTechStack, getCatalogEntry, trainingStats } from '@/lib/catalog';
 
@@ -79,7 +80,7 @@ export function CatalogPage({ entry }: { entry: CatalogEntry }) {
         <p className="mt-2 text-xs text-stone-500">Company-published figures; not independently audited, and distinct from enterprise project metrics elsewhere on this site.</p>
         <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3">
           {trainingStats.map(stat => <div key={stat.label} className="rounded-xl border border-stone-800 bg-stone-900/30 p-5">
-            <p className="text-2xl font-semibold text-gold-200">{stat.value}</p>
+            <p className="text-2xl font-semibold text-gold-200"><AnimatedNumber value={stat.value} suffix={stat.suffix} /></p>
             <p className="mt-1 text-xs text-stone-400">{stat.label}</p>
           </div>)}
         </div>
