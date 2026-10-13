@@ -8,10 +8,34 @@
 @tailwind utilities;
 
 @layer base {
-  :root { color-scheme: dark; }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
-  body { @apply bg-obsidian text-stone-100 antialiased; margin: 0; }
+  :root {
+    color-scheme: dark;
+    /* Mapped to the luxury obsidian/gold/bronze palette — this site has no
+       light/dark toggle, so these live directly on :root rather than behind
+       a .dark class, and shadcn/skiper-ui components inherit them automatically.
+       Stored as bare "H S% L%" channels (not hsl(...) or hex) so Tailwind can
+       inject alpha for opacity modifiers like ring/50 — see tailwind.config.js. */
+    --background: 40 16% 4%; --foreground: 60 5% 96%;
+    --card: 26 18% 8%; --card-foreground: 60 5% 96%;
+    --popover: 26 18% 8%; --popover-foreground: 60 5% 96%;
+    --primary: 39 54% 56%; --primary-foreground: 40 16% 4%;
+    --secondary: 12 6% 15%; --secondary-foreground: 60 5% 96%;
+    --muted: 24 10% 10%; --muted-foreground: 24 5% 64%;
+    --accent: 27 46% 52%; --accent-foreground: 40 16% 4%;
+    --destructive: 347 77% 50%;
+    --border: 12 6% 15%; --input: 12 6% 15%; --ring: 42 60% 65%;
+    --chart-1: 42 60% 65%; --chart-2: 39 54% 56%; --chart-3: 27 46% 52%; --chart-4: 26 48% 43%; --chart-5: 25 49% 35%;
+    --radius: 0.625rem;
+    --sidebar: 26 18% 8%; --sidebar-foreground: 60 5% 96%;
+    --sidebar-primary: 39 54% 56%; --sidebar-primary-foreground: 40 16% 4%;
+    --sidebar-accent: 12 6% 15%; --sidebar-accent-foreground: 60 5% 96%;
+    --sidebar-border: 12 6% 15%; --sidebar-ring: 42 60% 65%;
+  }
+  * { box-sizing: border-box;
+    @apply border-border outline-ring/50; }
+  html { scroll-behavior: smooth; scroll-padding-top: 6rem;
+    @apply font-sans; }
+  body { @apply antialiased bg-background text-foreground; margin: 0; }
   ::selection { background: #e9d4a0; color: #0b0a08; }
   :focus-visible { outline: 3px solid #dcbd72; outline-offset: 5px; }
   button, a, input, textarea, select { -webkit-tap-highlight-color: transparent; }
