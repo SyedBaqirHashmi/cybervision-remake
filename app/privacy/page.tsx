@@ -15,7 +15,7 @@ export default function Privacy() {
     <p className="eyebrow">Your information</p>
     <h1 className="section-title">Website privacy notice</h1>
     <p className="body-copy mt-8">This notice explains the data handled by this CyberVision website implementation.</p>
-    <div className="mt-10 space-y-8 text-sm leading-7 text-slate-300">
+    <div className="mt-10 space-y-8 text-sm leading-7 text-stone-300">
       <section>
         <h2 className="mb-3 text-xl font-semibold text-white">When you contact us</h2>
         <p>The consultation form sends your name, email address, optional organisation, selected area of interest, project description and consent to CyberVision’s configured contact inbox. The newsletter form sends your email address and consent as a subscription request for the team to confirm. These details are used to respond to the request you make.</p>
@@ -30,7 +30,7 @@ export default function Privacy() {
       </section>
       <section>
         <h2 className="mb-3 text-xl font-semibold text-white">Your choices</h2>
-        <p>Sending a form is optional. Please avoid including passwords, payment data, or confidential project material. You can contact <a className="text-cyan-200 underline" href="mailto:info@cybervision.com.pk">info@cybervision.com.pk</a> to ask about your enquiry, request correction or deletion, or withdraw a newsletter request. No newsletter subscription is completed automatically by this website.</p>
+        <p>Sending a form is optional. Please avoid including passwords, payment data, or confidential project material. You can contact <a className="text-gold-200 underline" href="mailto:info@cybervision.com.pk">info@cybervision.com.pk</a> to ask about your enquiry, request correction or deletion, or withdraw a newsletter request. No newsletter subscription is completed automatically by this website.</p>
       </section>
     </div>
     <Link href="/" className="btn-secondary mt-12">Return to the website</Link>

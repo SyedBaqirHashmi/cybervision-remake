@@ -36,10 +36,10 @@ export default function Page() {
   <Header />
   <main id="main">
     <Hero />
-    <div className="border-b border-slate-800">
+    <div className="border-b border-stone-800">
       <div className="shell flex flex-wrap items-center justify-between gap-x-7 gap-y-6 py-9">
-        <p className="w-full text-center text-[10px] leading-5 text-slate-400 sm:w-auto sm:text-left">Selected organisations<br /><span className="text-slate-300">we’ve worked with</span></p>
-        {['LUMS', 'UNICEF', 'UNDP', 'Karandaaz', 'FAO'].map(name => <span key={name} className="font-sans text-base font-semibold tracking-tight text-slate-400 sm:text-xl">
+        <p className="w-full text-center text-[10px] leading-5 text-stone-400 sm:w-auto sm:text-left">Selected organisations<br /><span className="text-stone-300">we’ve worked with</span></p>
+        {['LUMS', 'UNICEF', 'UNDP', 'Karandaaz', 'FAO'].map(name => <span key={name} className="font-sans text-base font-semibold tracking-tight text-stone-400 sm:text-xl">
           {name}
         </span>)}
       </div>

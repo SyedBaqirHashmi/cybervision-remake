@@ -45,25 +45,25 @@ function Network({
     <bufferGeometry>
       <bufferAttribute attach="attributes-position" args={[points, 3]} />
     </bufferGeometry>
-    <pointsMaterial color="#a5f3fc" size={.046} sizeAttenuation transparent opacity={.95} />
+    <pointsMaterial color="#e9d4a0" size={.046} sizeAttenuation transparent opacity={.95} />
   </points>
   <lineSegments>
     <bufferGeometry>
       <bufferAttribute attach="attributes-position" args={[links, 3]} />
     </bufferGeometry>
-    <lineBasicMaterial color="#38bdf8" transparent opacity={.22} />
+    <lineBasicMaterial color="#cba052" transparent opacity={.22} />
   </lineSegments>
   <mesh rotation={[1.1, .3, .2]}>
     <torusGeometry args={[2.32, .008, 8, 128]} />
-    <meshBasicMaterial color="#818cf8" transparent opacity={.8} />
+    <meshBasicMaterial color="#bd7f4c" transparent opacity={.8} />
   </mesh>
   <mesh rotation={[.1, 1.2, -.4]}>
     <torusGeometry args={[2.55, .006, 8, 128]} />
-    <meshBasicMaterial color="#67e8f9" transparent opacity={.55} />
+    <meshBasicMaterial color="#dcbd72" transparent opacity={.55} />
   </mesh>
   <mesh>
     <sphereGeometry args={[1.52, 24, 16]} />
-    <meshBasicMaterial color="#0c1630" transparent opacity={.75} />
+    <meshBasicMaterial color="#1d1712" transparent opacity={.75} />
   </mesh>
   </group>;
 }

@@ -40,7 +40,7 @@ export default function RootLayout({
 }) {
   return <html lang="en">
   <body>
-    <a href="#main" className="fixed left-4 top-4 z-[100] -translate-y-24 rounded-lg bg-cyan-200 px-5 py-3 font-semibold text-slate-950 focus:translate-y-0">Skip to content</a>
+    <a href="#main" className="fixed left-4 top-4 z-[100] -translate-y-24 rounded-lg bg-gold-200 px-5 py-3 font-semibold text-stone-950 focus:translate-y-0">Skip to content</a>
     <MotionProvider>
       {children}
     </MotionProvider>

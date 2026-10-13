@@ -13,13 +13,13 @@ export default function Image() {
     flexDirection: 'column',
     justifyContent: 'space-between',
     padding: 70,
-    color: '#f8fafc',
-    background: 'linear-gradient(120deg, #030712 30%, #172554)'
+    color: '#fbf8f1',
+    background: 'linear-gradient(120deg, #0b0a08 30%, #3f2d14)'
   }}>
   <div style={{
       display: 'flex',
       fontSize: 28,
-      color: '#a5f3fc'
+      color: '#e9d4a0'
     }}>CYBERVISION INTERNATIONAL</div>
   <div style={{
       display: 'flex',
@@ -32,7 +32,7 @@ export default function Image() {
   <div style={{
       display: 'flex',
       fontSize: 22,
-      color: '#cbd5e1'
+      color: '#d6d3d1'
     }}>Software · Automation · IoT · Digital Training</div>
   </div>, size);
 }
