@@ -1,32 +1,22 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { ArrowUpRight, Menu, X } from 'lucide-react';
 import { navigation } from '@/lib/content';
 import { Logo } from './ui/logo';
 import { MagneticLink } from './ui/magnetic-link';
 export function Header() {
   const [open, setOpen] = useState(false);
-  const [active, setActive] = useState('');
+  const pathname = usePathname();
+  const active = navigation.find(([, href]) => href === pathname)?.[1] ?? '';
   const button = useRef<HTMLButtonElement>(null);
   useEffect(() => {
-    const observer = new IntersectionObserver(entries => {
-      for (const entry of entries) if (entry.isIntersecting) setActive('#' + entry.target.id);
-    }, {
-      rootMargin: '-15% 0px -65% 0px'
-    });
-    navigation.forEach(([, href]) => {
-      const element = document.querySelector(href);
-      if (element) observer.observe(element);
-    });
     const resize = () => {
       if (window.innerWidth >= 1024) setOpen(false);
     };
     window.addEventListener('resize', resize);
-    return () => {
-      observer.disconnect();
-      window.removeEventListener('resize', resize);
-    };
+    return () => window.removeEventListener('resize', resize);
   }, []);
   return <header className="fixed inset-x-0 top-0 z-40 border-b border-stone-800/80 bg-stone-950/85 backdrop-blur-md" onKeyDown={event => {
     if (event.key === 'Escape' && open) {

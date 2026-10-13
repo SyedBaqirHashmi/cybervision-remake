@@ -1,0 +1,323 @@
+[
+  {
+    "slug": "software-development-services",
+    "sourceUrl": "https://cybervision.com.pk/software-development-services/",
+    "heroHeading": "Expertise, connected.",
+    "purpose": "Bring business processes, digital products and connected devices together with a team that understands the whole system.",
+    "sections": [
+      { "heading": "A connected service portfolio", "items": ["Business automation", "Web and mobile engineering", "Connected devices", "Digital marketing", "Learning content", "Remote delivery teams"] },
+      { "heading": "From challenge to delivery", "items": [] }
+    ],
+    "relatedRoutes": ["business-process-automation", "digital-services", "internet-of-things", "app-development", "digital-training-content-creation", "blockchain", "dedicated-virtual-assistants"]
+  },
+  {
+    "slug": "products",
+    "sourceUrl": "https://cybervision.com.pk/products/",
+    "heroHeading": "Built around the way you work.",
+    "purpose": "Six enterprise products address operations, customer relationships, people and connected agriculture.",
+    "sections": [
+      { "heading": "Choose your operating system", "items": ["Enterprise planning", "Customer management", "HR collaboration", "Warehouse operations", "Volunteer coordination", "Agricultural machinery"] }
+    ],
+    "relatedRoutes": ["enterprise-resource-planning-system", "customer-relationship-management-system", "hr-management-system", "warehouse-management-system", "volunteer-management-system", "agri-smart-solution"]
+  },
+  {
+    "slug": "business-process-automation",
+    "sourceUrl": "https://cybervision.com.pk/business-process-automation/",
+    "heroHeading": "Less friction. More progress.",
+    "purpose": "Connect business applications and routine processes through a coordinated approach to automation.",
+    "sections": [
+      { "heading": "Understand before automating", "items": ["Process assessment", "Solution architecture"] },
+      { "heading": "Delivery and continuity", "items": ["Application integration", "Team enablement", "Maintenance and support"] }
+    ],
+    "relatedRoutes": ["enterprise-resource-planning-system", "customer-relationship-management-system", "web-development"]
+  },
+  {
+    "slug": "digital-services",
+    "sourceUrl": "https://cybervision.com.pk/digital-services/",
+    "heroHeading": "Make every digital interaction count.",
+    "purpose": "Connect your website, search visibility and brand communications into a coherent digital presence.",
+    "sections": [
+      { "heading": "Build your presence", "items": ["Web development", "Search optimisation", "Social campaigns", "Online reputation"] },
+      { "heading": "Relevant experience", "items": [] }
+    ],
+    "relatedRoutes": ["web-development", "seo-company-pakistan", "social-media-marketing", "online-reputation-management"]
+  },
+  {
+    "slug": "web-development",
+    "sourceUrl": "https://cybervision.com.pk/web-development/",
+    "heroHeading": "Your next chapter, online.",
+    "purpose": "Plan and build web experiences around your organisation, its content and the people it serves.",
+    "sections": [
+      { "heading": "Platforms with purpose", "items": ["CMS implementation", "E-commerce platforms", "Bespoke web applications"] },
+      { "heading": "A considered process", "items": ["Requirements and planning", "Interface prototypes", "Reporting and documentation", "Post-launch support"] }
+    ],
+    "relatedRoutes": ["app-development", "case-studies", "dedicated-virtual-assistants"]
+  },
+  {
+    "slug": "app-development",
+    "sourceUrl": "https://cybervision.com.pk/app-development/",
+    "heroHeading": "Useful experiences. Wherever life happens.",
+    "purpose": "Develop mobile products for customers, employees and enterprise operations, with support for iOS and Android.",
+    "sections": [
+      { "heading": "From research to release", "items": ["Flutter", "React Native", "Ionic", "Angular", "Node.js"] },
+      { "heading": "Across industries", "items": [] }
+    ],
+    "relatedRoutes": ["web-development", "internet-of-things", "case-studies"]
+  },
+  {
+    "slug": "internet-of-things",
+    "sourceUrl": "https://cybervision.com.pk/internet-of-things/",
+    "heroHeading": "Connect the physical to the possible.",
+    "purpose": "Bring device data into the systems people use to understand and manage their operations.",
+    "sections": [
+      { "heading": "End-to-end expertise", "items": ["Cloud integration", "Connected applications", "Monitoring systems"] },
+      { "heading": "Applied intelligence", "items": [] }
+    ],
+    "relatedRoutes": ["agri-smart-solution", "business-process-automation"]
+  },
+  {
+    "slug": "blockchain",
+    "sourceUrl": "https://cybervision.com.pk/blockchain/",
+    "heroHeading": "A shared record. A clearer history.",
+    "purpose": "Explore distributed records for business information, document authenticity and cross-organisation processes.",
+    "sections": [
+      { "heading": "Evaluate the fit", "items": ["Technical consulting", "Development", "Integration and testing"] },
+      { "heading": "Applications", "items": [] }
+    ],
+    "relatedRoutes": ["business-process-automation", "web-development"]
+  },
+  {
+    "slug": "dedicated-virtual-assistants",
+    "sourceUrl": "https://cybervision.com.pk/dedicated-virtual-assistants/",
+    "heroHeading": "The expertise your next stage needs.",
+    "purpose": "Extend delivery capacity with remote specialists across technology, design, analysis and operations.",
+    "sections": [
+      { "heading": "Build the right team", "items": ["Business analysts", "Project managers", "Product and graphic designers", "Software developers", "Digital marketers", "Quality assurance engineers"] },
+      { "heading": "A managed engagement", "items": [] }
+    ],
+    "relatedRoutes": ["web-development", "app-development", "business-consulting"]
+  },
+  {
+    "slug": "digital-training-content-creation",
+    "sourceUrl": "https://cybervision.com.pk/digital-training-content-creation/",
+    "heroHeading": "Knowledge people can use.",
+    "purpose": "Turn complex subjects into accessible learning experiences for vocational, educational and workplace audiences.",
+    "sections": [
+      { "heading": "Formats that work together", "items": ["Instructional video", "Animation and narration", "Interactive assessments", "Practical toolkits", "Learning games"] },
+      { "heading": "Published work", "items": [] }
+    ],
+    "relatedRoutes": ["training", "case-studies"]
+  },
+  {
+    "slug": "seo-company-pakistan",
+    "sourceUrl": "https://cybervision.com.pk/seo-company-pakistan/",
+    "heroHeading": "Help the right audience find you.",
+    "purpose": "Build a search strategy around relevant queries, sound technical foundations and useful content.",
+    "sections": [
+      { "heading": "Areas of focus", "items": ["Keyword research", "Technical site improvements", "Content planning", "Internal linking", "External authority"] },
+      { "heading": "Measure the opportunity", "items": [] }
+    ],
+    "relatedRoutes": ["digital-services", "web-development", "social-media-marketing"]
+  },
+  {
+    "slug": "social-media-marketing",
+    "sourceUrl": "https://cybervision.com.pk/social-media-marketing/",
+    "heroHeading": "Turn attention into connection.",
+    "purpose": "Plan content, community activity and paid campaigns around the audiences that matter to your organisation.",
+    "sections": [
+      { "heading": "Purposeful communication", "items": ["Facebook", "LinkedIn", "Instagram", "Twitter", "Google"] },
+      { "heading": "Published examples", "items": [] }
+    ],
+    "relatedRoutes": ["digital-services", "online-reputation-management"]
+  },
+  {
+    "slug": "online-reputation-management",
+    "sourceUrl": "https://cybervision.com.pk/online-reputation-management/",
+    "heroHeading": "Build confidence in your digital presence.",
+    "purpose": "Coordinate public relations, content and social communication around the way your organisation is perceived.",
+    "sections": [
+      { "heading": "A continuous process", "items": ["Audience and channel analysis", "Messaging and content", "Campaign delivery", "Performance review"] }
+    ],
+    "relatedRoutes": ["social-media-marketing", "digital-services"]
+  },
+  {
+    "slug": "agri-smart-solution",
+    "sourceUrl": "https://cybervision.com.pk/agri-smart-solution/",
+    "heroHeading": "Better use of the machinery already here.",
+    "purpose": "Connect farmers and machinery owners through booking tools, IoT telemetry and a shared agricultural service model.",
+    "sections": [
+      { "heading": "A coordinated journey", "items": ["Reservation requests and history", "Provider registration", "Machinery details"] },
+      { "heading": "From field to information", "items": ["Temperature, pressure and humidity", "Motion sensing", "Cloud data and AI integration"] }
+    ],
+    "relatedRoutes": ["internet-of-things", "case-studies"]
+  },
+  {
+    "slug": "customer-relationship-management-system",
+    "sourceUrl": "https://cybervision.com.pk/customer-relationship-management-system/",
+    "heroHeading": "Keep relationships at the centre.",
+    "purpose": "Bring customer information, sales activity and day-to-day follow-up into a shared working view.",
+    "sections": [
+      { "heading": "A connected customer record", "items": ["Prospect tracking", "Sales activity", "Task coordination", "Email campaigns"] },
+      { "heading": "See the bigger picture", "items": ["Customer profiles", "Performance analysis", "Reporting"] }
+    ],
+    "relatedRoutes": ["enterprise-resource-planning-system", "business-process-automation"]
+  },
+  {
+    "slug": "enterprise-resource-planning-system",
+    "sourceUrl": "https://cybervision.com.pk/enterprise-resource-planning-system/",
+    "heroHeading": "One foundation for essential operations.",
+    "purpose": "A web-based management platform connects core business functions and supports coordinated workflows.",
+    "sections": [
+      { "heading": "Core capabilities", "items": ["Accounts and ledger reporting", "HR and payroll", "Procurement"] },
+      { "heading": "Designed around the organisation", "items": [] }
+    ],
+    "relatedRoutes": ["customer-relationship-management-system", "hr-management-system", "warehouse-management-system"]
+  },
+  {
+    "slug": "hr-management-system",
+    "sourceUrl": "https://cybervision.com.pk/hr-management-system/",
+    "heroHeading": "A more connected workplace.",
+    "purpose": "Give people a shared place for information, learning and everyday HR processes.",
+    "sections": [
+      { "heading": "Information within reach", "items": ["Employee information", "HR documents and templates", "Process automation"] },
+      { "heading": "Support people and decisions", "items": [] }
+    ],
+    "relatedRoutes": ["enterprise-resource-planning-system", "training"]
+  },
+  {
+    "slug": "volunteer-management-system",
+    "sourceUrl": "https://cybervision.com.pk/volunteer-management-system/",
+    "heroHeading": "Make participation easier.",
+    "purpose": "Coordinate volunteer records, events and communication through a common system.",
+    "sections": [
+      { "heading": "From registration to participation", "items": ["Event registration", "Group profiles", "Volunteer communication"] },
+      { "heading": "Coordinate the work", "items": [] }
+    ],
+    "relatedRoutes": ["case-studies", "warehouse-management-system"]
+  },
+  {
+    "slug": "warehouse-management-system",
+    "sourceUrl": "https://cybervision.com.pk/warehouse-management-system/",
+    "heroHeading": "Know what is where.",
+    "purpose": "Coordinate stock, movement and fulfilment with visibility across warehouse locations.",
+    "sections": [
+      { "heading": "Operational coverage", "items": ["Inventory control", "Order fulfilment", "Shipping", "Transport coordination", "Administration"] },
+      { "heading": "Connected operations", "items": [] }
+    ],
+    "relatedRoutes": ["enterprise-resource-planning-system", "case-studies"]
+  },
+  {
+    "slug": "training",
+    "sourceUrl": "https://cybervision.com.pk/training/",
+    "heroHeading": "Capability changes futures.",
+    "purpose": "Connect educational technology, practical learning and programme delivery to help people build useful skills.",
+    "sections": [
+      { "heading": "Learning infrastructure", "items": ["Adaptive learning", "LMS deployment", "Blended programmes", "Assessment and evaluation"] },
+      { "heading": "Training domains", "items": ["AI, data and software", "Cybersecurity and cloud", "Communication and teamwork", "Specialist expertise", "Leadership and mentoring"] },
+      { "heading": "Published programmes", "items": [] }
+    ],
+    "relatedRoutes": ["digital-training-content-creation", "free-huawei-ai-cloud-certification-training-cybervision-x-navttc-centre-of-excellence", "case-studies"],
+    "image": { "src": "https://cybervision.com.pk/wp-content/uploads/2024/12/CVI-UNDP.png", "caption": "CyberVision's published image for its UNDP training programme. Original alt attribute is unverified." },
+    "variant": "training"
+  },
+  {
+    "slug": "startup-innovation",
+    "sourceUrl": "https://cybervision.com.pk/startup-innovation/",
+    "heroHeading": "Build something that matters.",
+    "purpose": "Support for entrepreneurs connects product thinking, technical expertise, mentors and investor networks.",
+    "sections": [
+      { "heading": "NIC Faisalabad", "items": ["A 12-month programme described by the source", "Founder Institute curriculum", "Agritech and textile technology"] },
+      { "heading": "Support along the journey", "items": [] }
+    ],
+    "relatedRoutes": ["business-consulting", "agri-smart-solution"]
+  },
+  {
+    "slug": "business-consulting",
+    "sourceUrl": "https://cybervision.com.pk/business-consulting/",
+    "heroHeading": "Give your ambition a practical plan.",
+    "purpose": "Work through the business model, product and investment questions that shape a growing venture.",
+    "sections": [
+      { "heading": "Shape the business", "items": ["Business model design", "Prototypes and MVPs", "Technology planning"] },
+      { "heading": "Build your network", "items": [] }
+    ],
+    "relatedRoutes": ["startup-innovation", "web-development"]
+  },
+  {
+    "slug": "company",
+    "sourceUrl": "https://cybervision.com.pk/company/",
+    "heroHeading": "Built in Islamabad. Working beyond borders.",
+    "purpose": "CyberVision International has delivered software and digital transformation services since 2004.",
+    "sections": [
+      { "heading": "People and technology", "items": ["Software delivery", "Digital transformation", "Workforce development"] },
+      { "heading": "A history of applied work", "items": [] }
+    ],
+    "relatedRoutes": ["clients", "case-studies", "startup-innovation", "contactus"],
+    "variant": "company"
+  },
+  {
+    "slug": "clients",
+    "sourceUrl": "https://cybervision.com.pk/clients/",
+    "heroHeading": "Progress is a shared endeavour.",
+    "purpose": "A cross-sector portfolio brings together public institutions, development organisations, education and enterprise.",
+    "sections": [
+      { "heading": "Selected relationships", "items": [] }
+    ],
+    "relatedRoutes": ["case-studies", "company"],
+    "variant": "clients"
+  },
+  {
+    "slug": "case-studies",
+    "sourceUrl": "https://cybervision.com.pk/case-studies/",
+    "heroHeading": "Technology, put to work.",
+    "purpose": "Explore published projects spanning public services, learning, enterprise operations and digital platforms.",
+    "sections": [
+      { "heading": "Across sectors", "items": [] }
+    ],
+    "relatedRoutes": ["clients", "products", "resources"],
+    "variant": "case-studies"
+  },
+  {
+    "slug": "contactus",
+    "sourceUrl": "https://cybervision.com.pk/contactus/",
+    "heroHeading": "Let's work on what comes next.",
+    "purpose": "Tell us what you are building, the challenge you are facing and where you want to go.",
+    "sections": [
+      { "heading": "Islamabad office", "items": ["info@cybervision.com.pk", "+92 51 230 4878", "+92 51 230 4863", "+92 309 7774441"] }
+    ],
+    "relatedRoutes": ["company"],
+    "variant": "contact",
+    "primaryAction": { "label": "Validated consultation form and direct contact channels", "href": "#contact" }
+  },
+  {
+    "slug": "free-huawei-ai-cloud-certification-training-cybervision-x-navttc-centre-of-excellence",
+    "sourceUrl": "https://cybervision.com.pk/free-huawei-ai-cloud-certification-training-cybervision-x-navttc-centre-of-excellence/",
+    "heroHeading": "Build practical technology skills.",
+    "purpose": "CyberVision's published announcement describes free Huawei certification training with NAVTTC under the Prime Minister's Youth Programme.",
+    "sections": [
+      { "heading": "Programme at a glance", "items": ["No training fee advertised", "Three months of learning", "Huawei certification pathway"] },
+      { "heading": "Check the current intake", "items": [] }
+    ],
+    "relatedRoutes": ["training", "contactus"],
+    "primaryAction": { "label": "Check current intake on the NAVTTC portal", "href": "https://nsis.navttc.gov.pk" }
+  },
+  {
+    "slug": "disclaimer",
+    "sourceUrl": "https://cybervision.com.pk/disclaimer/",
+    "heroHeading": "Clear information. Responsible use.",
+    "purpose": "This remake presents an adapted overview of CyberVision's published services, products and portfolio.",
+    "sections": [
+      { "heading": "Original company policies", "items": [] },
+      { "heading": "Third-party resources", "items": [] }
+    ],
+    "relatedRoutes": ["company", "contactus"],
+    "variant": "disclaimer"
+  },
+  {
+    "slug": "resources",
+    "heroHeading": "Published source documents.",
+    "purpose": "Three PDF briefings published on the source site, linked here in their original form rather than re-hosted or reformatted.",
+    "sections": [],
+    "relatedRoutes": ["case-studies", "company"],
+    "variant": "resources"
+  }
+]

@@ -5,10 +5,10 @@ import { Logo } from './ui/logo';
 import { Newsletter } from './newsletter';
 const columns = [{
   title: 'Expertise',
-  links: [['AI & automation', '/#services'], ['Software engineering', '/#services'], ['Internet of Things', '/#services'], ['Digital training', '/#trainings']]
+  links: [['AI & automation', '/business-process-automation'], ['Software engineering', '/software-development-services'], ['Internet of Things', '/internet-of-things'], ['Digital training', '/training']]
 }, {
   title: 'Explore',
-  links: [['Enterprise products', '/#products'], ['Selected work', '/#products'], ['Startup ecosystem', '/#startups'], ['Company', '/#company']]
+  links: [['Enterprise products', '/products'], ['Selected work', '/case-studies'], ['Startup ecosystem', '/startup-innovation'], ['Company', '/company']]
 }];
 export function Footer() {
   return <footer className="border-t border-stone-800 bg-stone-950">
@@ -50,8 +50,8 @@ export function Footer() {
       <p>© {new Date().getFullYear()} CyberVision International.</p>
       <div className="flex flex-wrap gap-x-5 gap-y-4">
         <Link href="/privacy" className="hover:text-gold-200">Privacy notice</Link>
-        <a href="https://cybervision.com.pk/disclaimer/" target="_blank" rel="noopener noreferrer" className="hover:text-gold-200">Company disclaimer</a>
-        <a href="#home" className="hover:text-gold-200">Back to top ↑</a>
+        <Link href="/disclaimer" className="hover:text-gold-200">Company disclaimer</Link>
+        <Link href="/" className="hover:text-gold-200">Back to top ↑</Link>
       </div>
     </div>
   </div>
