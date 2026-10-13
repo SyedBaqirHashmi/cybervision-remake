@@ -9,7 +9,7 @@ export function Company() {
     </Reveal>
     <Reveal className="flex flex-col justify-center">
       <p className="body-copy">Since 2004, CyberVision International has brought business understanding and technical expertise together for national and international organisations. We connect software, digital experiences and skills development to help organisations move forward.</p>
-      <a href="https://cybervision.com.pk/" target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex min-h-11 items-center gap-3 self-start text-sm text-cyan-200">Explore our company <ArrowUpRight size={15} /></a>
+      <a href="https://cybervision.com.pk/" target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex min-h-11 items-center gap-3 self-start text-sm text-champagne-200">Explore our company <ArrowUpRight size={15} /></a>
     </Reveal>
   </div>
   </section>;

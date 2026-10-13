@@ -3,17 +3,17 @@ import { Reveal } from './ui/reveal';
 export function Training() {
   return <section id="trainings" aria-labelledby="training-title" className="section border-y border-slate-800 bg-slate-900/25">
   <div className="shell grid items-center gap-12 lg:grid-cols-2">
-    <Reveal className="relative overflow-hidden rounded-2xl border border-indigo-400/20 bg-gradient-to-br from-indigo-950/60 to-slate-950 p-6 sm:p-10">
+    <Reveal className="relative overflow-hidden rounded-2xl border border-bronze-400/20 bg-gradient-to-br from-bronze-950/60 to-slate-950 p-6 sm:p-10">
       <div className="mb-12 flex items-center justify-between">
-        <span className="font-mono text-[10px] tracking-widest text-indigo-200">CYBERVISION / LEARNING</span>
-        <GraduationCap className="text-indigo-300" size={25} />
+        <span className="font-mono text-[10px] tracking-widest text-bronze-200">CYBERVISION / LEARNING</span>
+        <GraduationCap className="text-bronze-300" size={25} />
       </div>
-      <div className="grid-surface relative rounded-xl border border-indigo-300/20 bg-slate-950/60 p-6">
-        <BookOpen className="mb-7 text-cyan-200" size={32} strokeWidth={1.25} />
-        <h3 className="text-2xl font-medium leading-tight">Knowledge becomes<br /><span className="text-cyan-200">opportunity.</span></h3>
+      <div className="grid-surface relative rounded-xl border border-bronze-300/20 bg-slate-950/60 p-6">
+        <BookOpen className="mb-7 text-champagne-200" size={32} strokeWidth={1.25} />
+        <h3 className="text-2xl font-medium leading-tight">Knowledge becomes<br /><span className="text-champagne-200">opportunity.</span></h3>
         <div className="mt-7 space-y-3">
           {['Engaging digital content', 'Practical learning journeys', 'Skills for entrepreneurship'].map((text, index) => <div key={text} className="flex items-center gap-3 border-t border-slate-800 pt-3 text-xs text-slate-300">
-            <span className="font-mono text-[10px] text-indigo-300">0{index + 1}</span>
+            <span className="font-mono text-[10px] text-bronze-300">0{index + 1}</span>
             {text}
             <PlayCircle size={14} className="ml-auto text-slate-400" aria-hidden="true" />
           </div>)}
@@ -27,10 +27,10 @@ export function Training() {
       <p className="body-copy mt-6">Technology moves forward when people do. CyberVision creates digital learning content that helps learners understand, practise and apply new skills.</p>
       <p className="body-copy mt-4">Our work includes entrepreneurial training material for PSDF, using video, voice-over and animation to support learning and business development.</p>
       <div className="my-8 flex items-center gap-5 border-y border-slate-700 py-6">
-        <span className="text-4xl font-semibold tracking-tight text-indigo-200">40k+</span>
+        <span className="text-4xl font-semibold tracking-tight text-bronze-200">40k+</span>
         <p className="text-xs leading-6 text-slate-300">Youth trained.<br />Potential put into motion.</p>
       </div>
-      <a href="#contact" className="inline-flex min-h-11 items-center gap-3 text-sm text-cyan-200">Let’s build a learning experience <ArrowUpRight size={16} /></a>
+      <a href="/training" className="inline-flex min-h-11 items-center gap-3 text-sm text-champagne-200">Explore training programmes <ArrowUpRight size={16} /></a>
     </Reveal>
   </div>
   </section>;

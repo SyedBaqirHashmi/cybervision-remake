@@ -117,7 +117,7 @@ export function ContactForm() {
       window.clearTimeout(timeout);
     }
   }
-  if (status === 'success') return <div className="rounded-2xl border border-cyan-300/30 bg-slate-900/60 p-8 sm:p-10">
+  if (status === 'success') return <div className="rounded-2xl border border-champagne-300/30 bg-slate-900/60 p-8 sm:p-10">
   <motion.div initial={reduced ? false : {
       scale: .8
     }} animate={{
@@ -139,11 +139,11 @@ export function ContactForm() {
       requestId.current = crypto.randomUUID();
     }}>Send another enquiry</button>
   </div>;
-  return <form ref={form} onSubmit={submit} noValidate aria-label="Consultation enquiry" aria-busy={status === 'loading'} className="min-w-0 rounded-2xl border border-slate-700 bg-slate-900/60 p-6 shadow-glow-indigo sm:p-8">
+  return <form ref={form} onSubmit={submit} noValidate aria-label="Consultation enquiry" aria-busy={status === 'loading'} className="min-w-0 rounded-2xl border border-slate-700 bg-slate-900/60 p-6 shadow-glow sm:p-8">
   <ol aria-label="Enquiry progress" className="mb-8 grid grid-cols-3 gap-3">
-    {labels.map((label, index) => <li key={label} aria-current={step === index ? 'step' : undefined} className={`border-t-2 pt-3 ${step >= index ? 'border-cyan-300' : 'border-slate-700'}`}>
+    {labels.map((label, index) => <li key={label} aria-current={step === index ? 'step' : undefined} className={`border-t-2 pt-3 ${step >= index ? 'border-champagne-300' : 'border-slate-700'}`}>
       <span className="flex items-center gap-1.5 text-[10px] text-slate-300">
-        <span className="font-mono text-cyan-200">
+        <span className="font-mono text-champagne-200">
           {step > index ? <Check size={11} /> : String(index + 1).padStart(2, '0')}
         </span>
         {label}
@@ -164,7 +164,7 @@ export function ContactForm() {
     <fieldset aria-describedby={errors.interest ? 'interest-error' : undefined}>
       <legend className="mb-3 text-xs text-slate-300">I’m interested in <span aria-hidden="true">*</span></legend>
       <div className="flex flex-wrap gap-2">
-        {interests.map(interest => <label key={interest} className={`relative cursor-pointer rounded-full border px-3 py-2.5 text-[11px] transition focus-within:ring-2 focus-within:ring-cyan-300 focus-within:ring-offset-2 focus-within:ring-offset-slate-950 ${data.interest === interest ? 'border-cyan-300 bg-cyan-300/10 text-cyan-100' : 'border-slate-600 text-slate-300 hover:border-slate-400'}`}>
+        {interests.map(interest => <label key={interest} className={`relative cursor-pointer rounded-full border px-3 py-2.5 text-[11px] transition focus-within:ring-2 focus-within:ring-champagne-300 focus-within:ring-offset-2 focus-within:ring-offset-slate-950 ${data.interest === interest ? 'border-champagne-300 bg-champagne-300/10 text-champagne-100' : 'border-slate-600 text-slate-300 hover:border-slate-400'}`}>
           <input className="sr-only" type="radio" name="interest" value={interest} checked={data.interest === interest} onChange={() => update('interest', interest)} required aria-invalid={!!errors.interest} />
           {interest}
         </label>)}
@@ -228,15 +228,15 @@ export function ContactForm() {
     </dl>
     <div>
       <label className="flex items-start gap-3 text-xs leading-6 text-slate-300">
-        <input type="checkbox" name="consent" checked={data.consent} onChange={e => update('consent', e.target.checked)} required aria-invalid={!!errors.consent} aria-describedby={errors.consent ? 'consent-error' : undefined} className="mt-1 size-5 shrink-0 accent-cyan-300" />
-        <span>I agree to CyberVision using these details to respond to my enquiry. Read our <Link href="/privacy" target="_blank" className="text-cyan-200 underline underline-offset-4">privacy notice</Link>.</span>
+        <input type="checkbox" name="consent" checked={data.consent} onChange={e => update('consent', e.target.checked)} required aria-invalid={!!errors.consent} aria-describedby={errors.consent ? 'consent-error' : undefined} className="mt-1 size-5 shrink-0 accent-champagne-300" />
+        <span>I agree to CyberVision using these details to respond to my enquiry. Read our <Link href="/privacy" target="_blank" className="text-champagne-200 underline underline-offset-4">privacy notice</Link>.</span>
       </label>
       {errors.consent && <p id="consent-error" className="field-error">
         {errors.consent}
       </p>}
     </div>
   </div>}
-  {notice && <p role="alert" className="mt-5 rounded-lg border border-rose-300/25 bg-rose-950/20 p-4 text-sm leading-6 text-rose-100">
+  {notice && <p role="alert" className="mt-5 rounded-lg border border-bronze-300/25 bg-bronze-950/20 p-4 text-sm leading-6 text-bronze-100">
     {notice}
   </p>}
   <div className="mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-slate-700 pt-6">

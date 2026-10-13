@@ -1,84 +1,29 @@
 'use client';
-
-import dynamic from 'next/dynamic';
-import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
-import { useReducedMotion } from 'framer-motion';
-import { Pause, Play } from 'lucide-react';
-import { VisualBoundary } from '../ui/error-boundary';
-const NeuralScene = dynamic(() => import('./neural-scene'), {
-  ssr: false,
-  loading: () => <Fallback />
-});
-function Fallback() {
-  return <Image src="/images/neural-network.svg" alt="" fill sizes="(max-width: 1024px) 100vw, 600px" className="object-contain" priority />;
-}
+import { Tilt } from '../ui/tilt';
 export function NetworkVisual() {
   const root = useRef<HTMLDivElement>(null);
-  const reduced = useReducedMotion();
-  const [enabled, setEnabled] = useState(false);
-  const [visible, setVisible] = useState(false);
-  const [documentVisible, setDocumentVisible] = useState(true);
-  const [paused, setPaused] = useState(false);
+  const [draw, setDraw] = useState(false);
   useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => setVisible(entry.isIntersecting), {
-      threshold: .05
-    });
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) { setDraw(true); observer.disconnect(); }
+    }, { threshold: .2 });
     if (root.current) observer.observe(root.current);
-    const visibility = () => setDocumentVisible(!document.hidden);
-    document.addEventListener('visibilitychange', visibility);
-    return () => {
-      observer.disconnect();
-      document.removeEventListener('visibilitychange', visibility);
-    };
+    return () => observer.disconnect();
   }, []);
-  useEffect(() => {
-    if (reduced || !visible) return;
-    const connection = (navigator as Navigator & {
-      connection?: {
-        saveData?: boolean;
-      };
-    }).connection;
-    if (connection?.saveData) return;
-    const timer = window.setTimeout(() => {
-      try {
-        const canvas = document.createElement('canvas');
-        const gl = canvas.getContext('webgl2');
-        if (gl) {
-          gl.getExtension('WEBGL_lose_context')?.loseContext();
-          setEnabled(true);
-        }
-      } catch {
-        setEnabled(false);
-      }
-    }, 1200);
-    return () => window.clearTimeout(timer);
-  }, [reduced, visible]);
-  return <div ref={root} className="relative mx-auto aspect-square w-full max-w-[620px]">
-  <div className="absolute inset-[15%] rounded-full bg-indigo-600/15 blur-[70px]" aria-hidden="true" />
-  <div className="absolute inset-0" aria-hidden="true">
-    <VisualBoundary fallback={<Fallback />}>
-      {enabled && !reduced ? <NeuralScene active={visible && documentVisible && !paused} /> : <Fallback />}
-    </VisualBoundary>
-  </div>
-  <div className="glass absolute left-0 top-[17%] max-w-[205px] rounded-xl p-3 sm:left-4 sm:p-4">
-    <div className="mb-2 flex items-center gap-2 font-mono text-[9px] uppercase tracking-wider text-slate-300"><span className="size-1.5 rounded-full bg-cyan-300" /> Connected intelligence</div>
-    <div className="flex items-center gap-3 text-xs">
-      <span className="text-xl text-cyan-200">⌘</span>
-      <span>From complexity<br /><strong className="font-medium text-cyan-100">to possibility.</strong></span>
-    </div>
-  </div>
-  <div className="glass absolute bottom-[13%] right-0 rounded-xl p-4 sm:right-2">
-    <p className="mb-3 font-mono text-[9px] uppercase tracking-wider text-slate-400">Human ambition × technology</p>
-    <div className="flex items-center gap-2">
-      <span className="rounded-md border border-indigo-400/30 bg-indigo-400/10 px-2 py-1 text-[10px] text-indigo-200">IMAGINE</span>
-      <span className="text-slate-400">→</span>
-      <span className="rounded-md border border-cyan-400/30 bg-cyan-400/10 px-2 py-1 text-[10px] text-cyan-200">ENGINEER</span>
-    </div>
-  </div>
-  {enabled && !reduced && <button className="absolute bottom-0 right-0 flex min-h-11 items-center gap-2 rounded-full border border-slate-700 bg-slate-950/90 px-3 text-[10px] text-slate-300" onClick={() => setPaused(!paused)} aria-label={paused ? 'Play neural network animation' : 'Pause neural network animation'}>
-    {paused ? <Play size={12} /> : <Pause size={12} />}
-    {paused ? 'Play motion' : 'Pause motion'}
-  </button>}
+  return <div ref={root} className="relative mx-auto w-full max-w-[620px] py-10" aria-hidden="true">
+    <Tilt className={`architecture-panel ${draw ? 'is-visible' : ''}`}>
+      <div className="mb-8 flex justify-between font-mono text-[9px] uppercase tracking-[.2em] text-slate-400"><span>Systems / Designed to connect</span><span>CV.01</span></div>
+      <svg viewBox="0 0 520 460" fill="none" className="w-full">
+        <g stroke="#413d38" strokeWidth=".7">{Array.from({length:9},(_,i)=><path key={i} d={`M${20+i*60} 40V420 M20 ${40+i*45}H500`} />)}</g>
+        <g stroke="#dfc596" strokeWidth="1.4" strokeLinejoin="round" className="architecture-lines">
+          {[0,1,2].map(i=><path key={i} pathLength="1" d={`M90 ${190+i*52} 260 ${92+i*52} 430 ${190+i*52} 260 ${288+i*52}Z`} />)}
+          <path pathLength="1" d="M90 190v104l170 98 170-98V190M260 92v300M175 141v208M345 141v208M90 242l170-98 170 98M175 245l85-49 85 49-85 49Z" />
+        </g>
+        <g fill="#c39b79">{[[90,190],[260,92],[430,190],[260,288],[175,245],[345,245],[260,392]].map(([x,y])=><circle key={`${x}-${y}`} cx={x} cy={y} r="4" />)}</g>
+        <g fill="#b4aea5" fontFamily="monospace" fontSize="9" letterSpacing="2"><text x="22" y="150">STRATEGY</text><text x="351" y="340">ENGINEERING</text><text x="220" y="438">HUMAN IMPACT</text></g>
+      </svg>
+      <div className="flex justify-between gap-4 border-t border-slate-700 pt-5 text-xs text-slate-300"><span>Every connection has a purpose.</span><span className="text-champagne-200">Since 2004 ↗</span></div>
+    </Tilt>
   </div>;
 }

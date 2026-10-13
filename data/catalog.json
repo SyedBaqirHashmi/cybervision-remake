@@ -1,0 +1,1057 @@
+{
+  "pages": [
+    {
+      "slug": "software-development-services",
+      "title": "Services",
+      "category": "Explore",
+      "headline": "Expertise, connected.",
+      "summary": "Bring business processes, digital products and connected devices together with a team that understands the whole system.",
+      "sections": [
+        {
+          "title": "A connected service portfolio",
+          "text": "Explore specialist capabilities from application development to learning experiences.",
+          "items": [
+            "Business automation",
+            "Web and mobile engineering",
+            "Connected devices",
+            "Digital marketing",
+            "Learning content",
+            "Remote delivery teams"
+          ]
+        },
+        {
+          "title": "From challenge to delivery",
+          "text": "Start with the business need. Discuss the systems, people and outcomes that will shape your project.",
+          "items": []
+        }
+      ],
+      "related": [
+        "business-process-automation",
+        "digital-services",
+        "internet-of-things",
+        "app-development",
+        "digital-training-content-creation",
+        "blockchain",
+        "dedicated-virtual-assistants"
+      ],
+      "source": "https://cybervision.com.pk/software-development-services/"
+    },
+    {
+      "slug": "products",
+      "title": "Products",
+      "category": "Explore",
+      "headline": "Built around the way you work.",
+      "summary": "Six enterprise products address operations, customer relationships, people and connected agriculture.",
+      "sections": [
+        {
+          "title": "Choose your operating system",
+          "text": "Explore each product to identify the processes you want to connect.",
+          "items": [
+            "Enterprise planning",
+            "Customer management",
+            "HR collaboration",
+            "Warehouse operations",
+            "Volunteer coordination",
+            "Agricultural machinery"
+          ]
+        }
+      ],
+      "related": [
+        "enterprise-resource-planning-system",
+        "customer-relationship-management-system",
+        "hr-management-system",
+        "warehouse-management-system",
+        "volunteer-management-system",
+        "agri-smart-solution"
+      ],
+      "source": "https://cybervision.com.pk/products/"
+    },
+    {
+      "slug": "business-process-automation",
+      "title": "Business process automation",
+      "category": "Services",
+      "headline": "Less friction. More progress.",
+      "summary": "Connect business applications and routine processes through a coordinated approach to automation.",
+      "sections": [
+        {
+          "title": "Understand before automating",
+          "text": "Review existing systems, data and operational needs before planning the solution.",
+          "items": [
+            "Process assessment",
+            "Solution architecture"
+          ]
+        },
+        {
+          "title": "Delivery and continuity",
+          "text": "Implementation is supported by integration, user training and ongoing maintenance.",
+          "items": [
+            "Application integration",
+            "Team enablement",
+            "Maintenance and support"
+          ]
+        }
+      ],
+      "related": [
+        "enterprise-resource-planning-system",
+        "customer-relationship-management-system",
+        "web-development"
+      ],
+      "source": "https://cybervision.com.pk/business-process-automation/"
+    },
+    {
+      "slug": "digital-services",
+      "title": "Digital services",
+      "category": "Services",
+      "headline": "Make every digital interaction count.",
+      "summary": "Connect your website, search visibility and brand communications into a coherent digital presence.",
+      "sections": [
+        {
+          "title": "Build your presence",
+          "text": "Choose the capabilities that fit your audience and commercial goals.",
+          "items": [
+            "Web development",
+            "Search optimisation",
+            "Social campaigns",
+            "Online reputation"
+          ]
+        },
+        {
+          "title": "Relevant experience",
+          "text": "Published examples include digital work for LUMS, RMI and Karandaaz.",
+          "items": []
+        }
+      ],
+      "related": [
+        "web-development",
+        "seo-company-pakistan",
+        "social-media-marketing",
+        "online-reputation-management"
+      ],
+      "source": "https://cybervision.com.pk/digital-services/"
+    },
+    {
+      "slug": "web-development",
+      "title": "Web development",
+      "category": "Services",
+      "headline": "Your next chapter, online.",
+      "summary": "Plan and build web experiences around your organisation, its content and the people it serves.",
+      "sections": [
+        {
+          "title": "Platforms with purpose",
+          "text": "Delivery spans managed content, commerce and custom applications.",
+          "items": [
+            "CMS implementation",
+            "E-commerce platforms",
+            "Bespoke web applications"
+          ]
+        },
+        {
+          "title": "A considered process",
+          "text": "Technology selection, discovery and prototyping establish the foundation for delivery and ongoing support.",
+          "items": [
+            "Requirements and planning",
+            "Interface prototypes",
+            "Reporting and documentation",
+            "Post-launch support"
+          ]
+        }
+      ],
+      "related": [
+        "app-development",
+        "case-studies",
+        "dedicated-virtual-assistants"
+      ],
+      "source": "https://cybervision.com.pk/web-development/"
+    },
+    {
+      "slug": "app-development",
+      "title": "Mobile app development",
+      "category": "Services",
+      "headline": "Useful experiences. Wherever life happens.",
+      "summary": "Develop mobile products for customers, employees and enterprise operations, with support for iOS and Android.",
+      "sections": [
+        {
+          "title": "From research to release",
+          "text": "Research and design inform the build, with platforms selected around the product requirements.",
+          "items": [
+            "Flutter",
+            "React Native",
+            "Ionic",
+            "Angular",
+            "Node.js"
+          ]
+        },
+        {
+          "title": "Across industries",
+          "text": "The source portfolio describes applications for education, healthcare, transport, property, finance and commerce.",
+          "items": []
+        }
+      ],
+      "related": [
+        "web-development",
+        "internet-of-things",
+        "case-studies"
+      ],
+      "source": "https://cybervision.com.pk/app-development/"
+    },
+    {
+      "slug": "internet-of-things",
+      "title": "Internet of Things",
+      "category": "Services",
+      "headline": "Connect the physical to the possible.",
+      "summary": "Bring device data into the systems people use to understand and manage their operations.",
+      "sections": [
+        {
+          "title": "End-to-end expertise",
+          "text": "Advisory, development and testing connect devices, applications and cloud services.",
+          "items": [
+            "Cloud integration",
+            "Connected applications",
+            "Monitoring systems"
+          ]
+        },
+        {
+          "title": "Applied intelligence",
+          "text": "Published application areas include agriculture, vehicle safety, home systems and solar energy control.",
+          "items": []
+        }
+      ],
+      "related": [
+        "agri-smart-solution",
+        "business-process-automation"
+      ],
+      "source": "https://cybervision.com.pk/internet-of-things/"
+    },
+    {
+      "slug": "blockchain",
+      "title": "Blockchain development",
+      "category": "Services",
+      "headline": "A shared record. A clearer history.",
+      "summary": "Explore distributed records for business information, document authenticity and cross-organisation processes.",
+      "sections": [
+        {
+          "title": "Evaluate the fit",
+          "text": "Advisory and planning assess how blockchain fits a new product or an existing environment.",
+          "items": [
+            "Technical consulting",
+            "Development",
+            "Integration and testing"
+          ]
+        },
+        {
+          "title": "Applications",
+          "text": "The service covers encrypted data storage, content verification and versioned records, including enterprise and patient-record use cases.",
+          "items": []
+        }
+      ],
+      "related": [
+        "business-process-automation",
+        "web-development"
+      ],
+      "source": "https://cybervision.com.pk/blockchain/"
+    },
+    {
+      "slug": "dedicated-virtual-assistants",
+      "title": "Dedicated teams",
+      "category": "Services",
+      "headline": "The expertise your next stage needs.",
+      "summary": "Extend delivery capacity with remote specialists across technology, design, analysis and operations.",
+      "sections": [
+        {
+          "title": "Build the right team",
+          "text": "Discuss the roles and skills your work requires.",
+          "items": [
+            "Business analysts",
+            "Project managers",
+            "Product and graphic designers",
+            "Software developers",
+            "Digital marketers",
+            "Quality assurance engineers"
+          ]
+        },
+        {
+          "title": "A managed engagement",
+          "text": "Share requirements, align on recruitment and discuss ongoing team management.",
+          "items": []
+        }
+      ],
+      "related": [
+        "web-development",
+        "app-development",
+        "business-consulting"
+      ],
+      "source": "https://cybervision.com.pk/dedicated-virtual-assistants/"
+    },
+    {
+      "slug": "digital-training-content-creation",
+      "title": "Digital learning content",
+      "category": "Services",
+      "headline": "Knowledge people can use.",
+      "summary": "Turn complex subjects into accessible learning experiences for vocational, educational and workplace audiences.",
+      "sections": [
+        {
+          "title": "Formats that work together",
+          "text": "Combine teaching material with opportunities to practise and assess understanding.",
+          "items": [
+            "Instructional video",
+            "Animation and narration",
+            "Interactive assessments",
+            "Practical toolkits",
+            "Learning games"
+          ]
+        },
+        {
+          "title": "Published work",
+          "text": "Examples include PSDF entrepreneurship courses, IRC gender-equality learning, USAID reading material and WFP school-safety modules.",
+          "items": []
+        }
+      ],
+      "related": [
+        "training",
+        "case-studies"
+      ],
+      "source": "https://cybervision.com.pk/digital-training-content-creation/"
+    },
+    {
+      "slug": "seo-company-pakistan",
+      "title": "Search engine optimisation",
+      "category": "Services",
+      "headline": "Help the right audience find you.",
+      "summary": "Build a search strategy around relevant queries, sound technical foundations and useful content.",
+      "sections": [
+        {
+          "title": "Areas of focus",
+          "text": "Services cover local and international search, digital PR and advisory.",
+          "items": [
+            "Keyword research",
+            "Technical site improvements",
+            "Content planning",
+            "Internal linking",
+            "External authority"
+          ]
+        },
+        {
+          "title": "Measure the opportunity",
+          "text": "Competitor analysis and search data help identify priorities and evaluate progress.",
+          "items": []
+        }
+      ],
+      "related": [
+        "digital-services",
+        "web-development",
+        "social-media-marketing"
+      ],
+      "source": "https://cybervision.com.pk/seo-company-pakistan/"
+    },
+    {
+      "slug": "social-media-marketing",
+      "title": "Social media marketing",
+      "category": "Services",
+      "headline": "Turn attention into connection.",
+      "summary": "Plan content, community activity and paid campaigns around the audiences that matter to your organisation.",
+      "sections": [
+        {
+          "title": "Purposeful communication",
+          "text": "Audience insight informs brand awareness, engagement and website-traffic campaigns.",
+          "items": [
+            "Facebook",
+            "LinkedIn",
+            "Instagram",
+            "Twitter",
+            "Google"
+          ]
+        },
+        {
+          "title": "Published examples",
+          "text": "The source lists work associated with Democracy Reporting International, Oxfam, Rabia Trust Hospital and Adhooked.",
+          "items": []
+        }
+      ],
+      "related": [
+        "digital-services",
+        "online-reputation-management"
+      ],
+      "source": "https://cybervision.com.pk/social-media-marketing/"
+    },
+    {
+      "slug": "online-reputation-management",
+      "title": "Online reputation",
+      "category": "Services",
+      "headline": "Build confidence in your digital presence.",
+      "summary": "Coordinate public relations, content and social communication around the way your organisation is perceived.",
+      "sections": [
+        {
+          "title": "A continuous process",
+          "text": "Research establishes the context. Creative work and deployment are followed by measurement and refinement.",
+          "items": [
+            "Audience and channel analysis",
+            "Messaging and content",
+            "Campaign delivery",
+            "Performance review"
+          ]
+        }
+      ],
+      "related": [
+        "social-media-marketing",
+        "digital-services"
+      ],
+      "source": "https://cybervision.com.pk/online-reputation-management/"
+    },
+    {
+      "slug": "agri-smart-solution",
+      "title": "Agri Smart Solution",
+      "category": "Products",
+      "headline": "Better use of the machinery already here.",
+      "summary": "Connect farmers and machinery owners through booking tools, IoT telemetry and a shared agricultural service model.",
+      "sections": [
+        {
+          "title": "A coordinated journey",
+          "text": "Farmers request machinery; owners review reservations and manage service delivery.",
+          "items": [
+            "Reservation requests and history",
+            "Provider registration",
+            "Machinery details"
+          ]
+        },
+        {
+          "title": "From field to information",
+          "text": "Sensor data supports performance analysis through mobile tools and a web dashboard.",
+          "items": [
+            "Temperature, pressure and humidity",
+            "Motion sensing",
+            "Cloud data and AI integration"
+          ]
+        }
+      ],
+      "related": [
+        "internet-of-things",
+        "case-studies"
+      ],
+      "source": "https://cybervision.com.pk/agri-smart-solution/"
+    },
+    {
+      "slug": "customer-relationship-management-system",
+      "title": "Customer relationship management",
+      "category": "Products",
+      "headline": "Keep relationships at the centre.",
+      "summary": "Bring customer information, sales activity and day-to-day follow-up into a shared working view.",
+      "sections": [
+        {
+          "title": "A connected customer record",
+          "text": "Coordinate prospects, customers and activity without separating the information your team needs.",
+          "items": [
+            "Prospect tracking",
+            "Sales activity",
+            "Task coordination",
+            "Email campaigns"
+          ]
+        },
+        {
+          "title": "See the bigger picture",
+          "text": "Dashboards and reporting help teams assess performance and organise their next steps.",
+          "items": [
+            "Customer profiles",
+            "Performance analysis",
+            "Reporting"
+          ]
+        }
+      ],
+      "related": [
+        "enterprise-resource-planning-system",
+        "business-process-automation"
+      ],
+      "source": "https://cybervision.com.pk/customer-relationship-management-system/"
+    },
+    {
+      "slug": "enterprise-resource-planning-system",
+      "title": "Enterprise resource planning",
+      "category": "Products",
+      "headline": "One foundation for essential operations.",
+      "summary": "A web-based management platform connects core business functions and supports coordinated workflows.",
+      "sections": [
+        {
+          "title": "Core capabilities",
+          "text": "The published product brings financial, people and purchasing processes together.",
+          "items": [
+            "Accounts and ledger reporting",
+            "HR and payroll",
+            "Procurement"
+          ]
+        },
+        {
+          "title": "Designed around the organisation",
+          "text": "Discuss configuration and workflow requirements to establish how the platform should support your business.",
+          "items": []
+        }
+      ],
+      "related": [
+        "customer-relationship-management-system",
+        "hr-management-system",
+        "warehouse-management-system"
+      ],
+      "source": "https://cybervision.com.pk/enterprise-resource-planning-system/"
+    },
+    {
+      "slug": "hr-management-system",
+      "title": "HR intranet",
+      "category": "Products",
+      "headline": "A more connected workplace.",
+      "summary": "Give people a shared place for information, learning and everyday HR processes.",
+      "sections": [
+        {
+          "title": "Information within reach",
+          "text": "Centralise workplace documents and reduce repetitive manual administration.",
+          "items": [
+            "Employee information",
+            "HR documents and templates",
+            "Process automation"
+          ]
+        },
+        {
+          "title": "Support people and decisions",
+          "text": "Learning resources and HR analysis help teams plan operations and understand workplace needs.",
+          "items": []
+        }
+      ],
+      "related": [
+        "enterprise-resource-planning-system",
+        "training"
+      ],
+      "source": "https://cybervision.com.pk/hr-management-system/"
+    },
+    {
+      "slug": "volunteer-management-system",
+      "title": "Volunteer management",
+      "category": "Products",
+      "headline": "Make participation easier.",
+      "summary": "Coordinate volunteer records, events and communication through a common system.",
+      "sections": [
+        {
+          "title": "From registration to participation",
+          "text": "Capture availability, interests and skills to support scheduling and engagement.",
+          "items": [
+            "Event registration",
+            "Group profiles",
+            "Volunteer communication"
+          ]
+        },
+        {
+          "title": "Coordinate the work",
+          "text": "The product supports recruitment, scheduling, reporting and recognition of contributions.",
+          "items": []
+        }
+      ],
+      "related": [
+        "case-studies",
+        "warehouse-management-system"
+      ],
+      "source": "https://cybervision.com.pk/volunteer-management-system/"
+    },
+    {
+      "slug": "warehouse-management-system",
+      "title": "Warehouse management",
+      "category": "Products",
+      "headline": "Know what is where.",
+      "summary": "Coordinate stock, movement and fulfilment with visibility across warehouse locations.",
+      "sections": [
+        {
+          "title": "Operational coverage",
+          "text": "Manage receiving and stock through dispatch and transportation.",
+          "items": [
+            "Inventory control",
+            "Order fulfilment",
+            "Shipping",
+            "Transport coordination",
+            "Administration"
+          ]
+        },
+        {
+          "title": "Connected operations",
+          "text": "The published product describes location dashboards, mobile capabilities and API integration with other systems.",
+          "items": []
+        }
+      ],
+      "related": [
+        "enterprise-resource-planning-system",
+        "case-studies"
+      ],
+      "source": "https://cybervision.com.pk/warehouse-management-system/"
+    },
+    {
+      "slug": "training",
+      "title": "Training & EdTech",
+      "category": "Training",
+      "headline": "Capability changes futures.",
+      "summary": "Connect educational technology, practical learning and programme delivery to help people build useful skills.",
+      "sections": [
+        {
+          "title": "Learning infrastructure",
+          "text": "Combine learning platforms, multimedia material and assessment with programme management.",
+          "items": [
+            "Adaptive learning",
+            "LMS deployment",
+            "Blended programmes",
+            "Assessment and evaluation"
+          ]
+        },
+        {
+          "title": "Training domains",
+          "text": "Develop technical and human capabilities together.",
+          "items": [
+            "AI, data and software",
+            "Cybersecurity and cloud",
+            "Communication and teamwork",
+            "Specialist expertise",
+            "Leadership and mentoring"
+          ]
+        },
+        {
+          "title": "Published programmes",
+          "text": "Examples include UNDP digital-skills work in KP, Sindh and Gilgit-Baltistan, and online courses for PSDF.",
+          "items": []
+        }
+      ],
+      "related": [
+        "digital-training-content-creation",
+        "free-huawei-ai-cloud-certification-training-cybervision-x-navttc-centre-of-excellence",
+        "case-studies"
+      ],
+      "source": "https://cybervision.com.pk/training/",
+      "image": "https://cybervision.com.pk/wp-content/uploads/2024/12/CVI-UNDP.png",
+      "imageAlt": "CyberVision’s published image for its UNDP training programme"
+    },
+    {
+      "slug": "startup-innovation",
+      "title": "Startup & innovation",
+      "category": "Company",
+      "headline": "Build something that matters.",
+      "summary": "Support for entrepreneurs connects product thinking, technical expertise, mentors and investor networks.",
+      "sections": [
+        {
+          "title": "NIC Faisalabad",
+          "text": "CyberVision describes its role in a residential incubation programme with workspace, coaching and a global partner network.",
+          "items": [
+            "12-month programme described by the source",
+            "Founder Institute curriculum",
+            "Agritech and textile technology"
+          ]
+        },
+        {
+          "title": "Support along the journey",
+          "text": "Work spans mentoring, specialist training and opportunities to connect with investors.",
+          "items": []
+        }
+      ],
+      "related": [
+        "business-consulting",
+        "agri-smart-solution"
+      ],
+      "source": "https://cybervision.com.pk/startup-innovation/"
+    },
+    {
+      "slug": "business-consulting",
+      "title": "Business consulting",
+      "category": "Company",
+      "headline": "Give your ambition a practical plan.",
+      "summary": "Work through the business model, product and investment questions that shape a growing venture.",
+      "sections": [
+        {
+          "title": "Shape the business",
+          "text": "Clarify differentiation and test the commercial idea alongside early product development.",
+          "items": [
+            "Business model design",
+            "Prototypes and MVPs",
+            "Technology planning"
+          ]
+        },
+        {
+          "title": "Build your network",
+          "text": "Mentor access and investor-readiness support help founders prepare for the next stage.",
+          "items": []
+        }
+      ],
+      "related": [
+        "startup-innovation",
+        "web-development"
+      ],
+      "source": "https://cybervision.com.pk/business-consulting/"
+    },
+    {
+      "slug": "company",
+      "title": "Our company",
+      "category": "Company",
+      "headline": "Built in Islamabad. Working beyond borders.",
+      "summary": "CyberVision International has delivered software and digital transformation services since 2004.",
+      "sections": [
+        {
+          "title": "People and technology",
+          "text": "Capabilities span web, mobile and enterprise engineering, alongside training and entrepreneurship support.",
+          "items": [
+            "Software delivery",
+            "Digital transformation",
+            "Workforce development"
+          ]
+        },
+        {
+          "title": "A history of applied work",
+          "text": "Explore the published client and project portfolio, from education and public services to enterprise operations.",
+          "items": []
+        }
+      ],
+      "related": [
+        "clients",
+        "case-studies",
+        "startup-innovation",
+        "contactus"
+      ],
+      "source": "https://cybervision.com.pk/company/"
+    },
+    {
+      "slug": "clients",
+      "title": "Our clients",
+      "category": "Company",
+      "headline": "Progress is a shared endeavour.",
+      "summary": "A cross-sector portfolio brings together public institutions, development organisations, education and enterprise.",
+      "sections": [
+        {
+          "title": "Selected relationships",
+          "text": "Explore organisations represented in CyberVision’s published client portfolio. Client names identify portfolio relationships, not endorsements of this remake.",
+          "items": []
+        }
+      ],
+      "related": [
+        "case-studies",
+        "company"
+      ],
+      "source": "https://cybervision.com.pk/clients/"
+    },
+    {
+      "slug": "case-studies",
+      "title": "Selected work",
+      "category": "Portfolio",
+      "headline": "Technology, put to work.",
+      "summary": "Explore published projects spanning public services, learning, enterprise operations and digital platforms.",
+      "sections": [
+        {
+          "title": "Across sectors",
+          "text": "The portfolio connects organisational needs with software, data and learning delivery. Browse project examples below.",
+          "items": []
+        }
+      ],
+      "related": [
+        "clients",
+        "products",
+        "resources"
+      ],
+      "source": "https://cybervision.com.pk/case-studies/"
+    },
+    {
+      "slug": "contactus",
+      "title": "Contact",
+      "category": "Company",
+      "headline": "Let’s work on what comes next.",
+      "summary": "Tell us what you are building, the challenge you are facing and where you want to go.",
+      "sections": [
+        {
+          "title": "Islamabad office",
+          "text": "Plot 18–19, first floor, Paradise Plaza, SCHS E-11/2, Islamabad, Pakistan.",
+          "items": [
+            "info@cybervision.com.pk",
+            "+92 51 230 4878",
+            "+92 51 230 4863",
+            "+92 309 7774441"
+          ]
+        }
+      ],
+      "related": [
+        "company"
+      ],
+      "source": "https://cybervision.com.pk/contactus/"
+    },
+    {
+      "slug": "free-huawei-ai-cloud-certification-training-cybervision-x-navttc-centre-of-excellence",
+      "title": "Huawei AI & cloud programme",
+      "category": "Training",
+      "headline": "Build practical technology skills.",
+      "summary": "CyberVision’s published announcement describes free Huawei certification training with NAVTTC under the Prime Minister’s Youth Programme.",
+      "sections": [
+        {
+          "title": "Programme at a glance",
+          "text": "The announcement covers practical AI, cloud and digital-infrastructure learning.",
+          "items": [
+            "No training fee advertised",
+            "Three months of learning",
+            "Huawei certification pathway"
+          ]
+        },
+        {
+          "title": "Check the current intake",
+          "text": "Application dates, eligibility and available places should be checked on NAVTTC’s registration portal before applying.",
+          "items": []
+        }
+      ],
+      "related": [
+        "training",
+        "contactus"
+      ],
+      "source": "https://cybervision.com.pk/free-huawei-ai-cloud-certification-training-cybervision-x-navttc-centre-of-excellence/"
+    },
+    {
+      "slug": "disclaimer",
+      "title": "Website information",
+      "category": "Company",
+      "headline": "Clear information. Responsible use.",
+      "summary": "This remake presents an adapted overview of CyberVision’s published services, products and portfolio.",
+      "sections": [
+        {
+          "title": "Original company policies",
+          "text": "Read the original company disclaimer for its terms on external links, accuracy and third-party materials. Policies on the source website remain separate from this remake’s privacy notice.",
+          "items": []
+        },
+        {
+          "title": "Third-party resources",
+          "text": "Reports and selected media are linked to their original locations. Availability and content are controlled by those publishers.",
+          "items": []
+        }
+      ],
+      "related": [
+        "company",
+        "contactus"
+      ],
+      "source": "https://cybervision.com.pk/disclaimer/"
+    }
+  ],
+  "resources": [
+    {
+      "id": "textile",
+      "title": "Pakistan textile sector",
+      "pages": 30,
+      "filename": "Textile.pdf",
+      "description": "An industry overview covering production, exports, the supply chain, investment considerations and technical textiles.",
+      "chapters": [
+        "Sector context and exports",
+        "Investment and incentives",
+        "Raw materials and weaving",
+        "Finished and technical textiles"
+      ],
+      "date": "Historical sector briefing",
+      "note": "Contains FY2022–23 figures and projections; these are not current market data.",
+      "url": "https://cybervision.com.pk/wp-content/uploads/2024/05/Textile.pdf"
+    },
+    {
+      "id": "tourism",
+      "title": "Tourism & hospitality",
+      "pages": 34,
+      "filename": "Tourism-hospitality.pdf",
+      "description": "A sector presentation exploring destinations, tourism economics, hotels, travel services and regional opportunities.",
+      "chapters": [
+        "Heritage and visitor economy",
+        "Domestic and overseas demand",
+        "Hospitality and travel services",
+        "Regional destinations"
+      ],
+      "date": "Historical sector briefing",
+      "note": "Includes 2022 figures and later forecasts; consult current sources for investment decisions.",
+      "url": "https://cybervision.com.pk/wp-content/uploads/2024/05/Tourism-hospitality.pdf"
+    },
+    {
+      "id": "one-window",
+      "title": "KPITB one-window platform",
+      "pages": 160,
+      "filename": "CV-DP-BPR-Study-KPITB-One-Window-v1.3.pdf",
+      "description": "A requirements study examining government processes and proposed integration into a common business-services portal.",
+      "chapters": [
+        "Departmental process assessment",
+        "Registration and utility workflows",
+        "Proposed integration and dashboards",
+        "Regulatory recommendations and appendices"
+      ],
+      "date": "18 May 2021",
+      "note": "A requirements document: proposed features are not evidence of completed deployment.",
+      "url": "https://cybervision.com.pk/wp-content/uploads/2024/05/CV-DP-BPR-Study-KPITB-One-Window-v1.3.pdf"
+    }
+  ],
+  "trainingMetrics": [
+    [
+      "40,000+",
+      "Youth trained"
+    ],
+    [
+      "20,000+",
+      "Jobs created"
+    ],
+    [
+      "24,000+",
+      "Women inclusion"
+    ],
+    [
+      "50,000+",
+      "Industry linkages & mentoring hours"
+    ],
+    [
+      "1,500+",
+      "Lesson plans, assessments & manuals"
+    ],
+    [
+      "200+",
+      "Curricula developed"
+    ]
+  ],
+  "clients": [
+    "UN",
+    "UNDP",
+    "UNICEF",
+    "UNEP",
+    "UNIDO",
+    "USAID",
+    "ILO",
+    "LUMS",
+    "NADRA",
+    "SECP",
+    "Karandaaz",
+    "OGDCL",
+    "PSDF",
+    "NAVTTC",
+    "NDMA",
+    "IBA",
+    "WSSP",
+    "SUPARCO",
+    "Oxfam",
+    "TransPeshawar",
+    "P&G",
+    "PIA",
+    "Plan",
+    "Hashoo",
+    "Preston",
+    "Dicotech",
+    "Enercon",
+    "FFC Energy"
+  ],
+  "caseStudies": [
+    [
+      "Agri Smart",
+      "Machinery booking and telemetry",
+      "agri-smart-solution"
+    ],
+    [
+      "Aasan Karobar",
+      "Business facilitation",
+      "resources"
+    ],
+    [
+      "eKasib",
+      "Freelance platform",
+      null
+    ],
+    [
+      "Presidential relief portal",
+      "GIS sponsorship system",
+      null
+    ],
+    [
+      "LUMS",
+      "Multi-domain academic portal",
+      "web-development"
+    ],
+    [
+      "Mercy Corps",
+      "Health transport application",
+      "app-development"
+    ],
+    [
+      "PSDF",
+      "Blended learning programmes",
+      "digital-training-content-creation"
+    ],
+    [
+      "FAO",
+      "Food-security information system",
+      null
+    ],
+    [
+      "NDMA / WFP",
+      "Warehouse coordination",
+      "warehouse-management-system"
+    ],
+    [
+      "PRCS / WFP",
+      "Volunteer administration",
+      "volunteer-management-system"
+    ],
+    [
+      "SECP Jamapunji",
+      "Portal and application support",
+      null
+    ],
+    [
+      "National Assembly",
+      "Legislative web platforms",
+      null
+    ],
+    [
+      "RMI",
+      "Institutional web portal",
+      null
+    ],
+    [
+      "OGDCL",
+      "Corporate web presence",
+      null
+    ],
+    [
+      "United Nations",
+      "Partner database",
+      null
+    ],
+    [
+      "Karandaaz",
+      "Corporate web portal",
+      null
+    ],
+    [
+      "IRC Masawat",
+      "Gender-equality learning",
+      null
+    ],
+    [
+      "Education knowledge portal",
+      "Sector information",
+      null
+    ],
+    [
+      "Khushhali Microfinance Bank",
+      "Corporate web presence",
+      null
+    ],
+    [
+      "UNIDO",
+      "Programme reporting",
+      null
+    ],
+    [
+      "TransPeshawar",
+      "Enterprise resource planning",
+      "enterprise-resource-planning-system"
+    ],
+    [
+      "NAVTTC",
+      "Programme monitoring",
+      null
+    ],
+    [
+      "Textile sector",
+      "Industry briefing",
+      "resources"
+    ],
+    [
+      "Tourism & hospitality",
+      "Industry briefing",
+      "resources"
+    ],
+    [
+      "KPITB",
+      "One-window requirements",
+      "resources"
+    ]
+  ]
+}

@@ -73,7 +73,7 @@ export function InnovationReel() {
       </button>
     </div>
     <div className="grid-surface relative grid min-h-[350px] place-items-center overflow-hidden p-6 text-center sm:min-h-[440px]">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(99,102,241,.2),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(175,122,79,.12),transparent_70%)]" />
       <AnimatePresence mode="wait">
         <motion.div key={index} initial={reduced ? false : {
             opacity: 0,
@@ -86,8 +86,8 @@ export function InnovationReel() {
           }} transition={{
             duration: reduced ? 0 : .35
           }} className="relative max-w-lg">
-          <Icon className="mx-auto mb-8 size-16 text-cyan-200" strokeWidth={1} aria-hidden="true" />
-          <p className="mb-4 font-mono text-[10px] tracking-widest text-indigo-200">
+          <Icon className="mx-auto mb-8 size-16 text-champagne-200" strokeWidth={1} aria-hidden="true" />
+          <p className="mb-4 font-mono text-[10px] tracking-widest text-bronze-200">
             {scene.label}
           </p>
           <h3 className="text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -121,7 +121,7 @@ export function InnovationReel() {
         </button>
       </div>
       <p className="text-xs text-slate-300" aria-live={playing ? 'off' : 'polite'}>{reduced ? 'Manual playback · ' : ''}Scene {index + 1} of {scenes.length}</p>
-      <a className="text-xs text-cyan-200 underline underline-offset-4" href="#contact" onClick={() => setOpen(false)}>Start a conversation ↗</a>
+      <a className="text-xs text-champagne-200 underline underline-offset-4" href="#contact" onClick={() => setOpen(false)}>Start a conversation ↗</a>
     </div>
   </dialog>}
   </>;

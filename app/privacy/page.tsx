@@ -30,7 +30,7 @@ export default function Privacy() {
       </section>
       <section>
         <h2 className="mb-3 text-xl font-semibold text-white">Your choices</h2>
-        <p>Sending a form is optional. Please avoid including passwords, payment data, or confidential project material. You can contact <a className="text-cyan-200 underline" href="mailto:info@cybervision.com.pk">info@cybervision.com.pk</a> to ask about your enquiry, request correction or deletion, or withdraw a newsletter request. No newsletter subscription is completed automatically by this website.</p>
+        <p>Sending a form is optional. Please avoid including passwords, payment data, or confidential project material. You can contact <a className="text-champagne-200 underline" href="mailto:info@cybervision.com.pk">info@cybervision.com.pk</a> to ask about your enquiry, request correction or deletion, or withdraw a newsletter request. No newsletter subscription is completed automatically by this website.</p>
       </section>
     </div>
     <Link href="/" className="btn-secondary mt-12">Return to the website</Link>

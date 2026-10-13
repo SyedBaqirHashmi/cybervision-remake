@@ -7,7 +7,7 @@ export const company = {
   mapUrl: 'https://www.google.com/maps/search/?api=1&query=CyberVision+International+Paradise+Plaza+Islamabad',
   founded: 2004
 };
-export const navigation = [['Services', '#services'], ['Products', '#products'], ['Trainings', '#trainings'], ['Startups', '#startups'], ['Company', '#company'], ['Contact', '#contact']] as const;
+export const navigation = [['Services', '/software-development-services'], ['Products', '/products'], ['Trainings', '/training'], ['Startups', '/startup-innovation'], ['Company', '/company'], ['Resources', '/resources']] as const;
 export const projects = [{
   id: 'fao',
   tag: 'DATA & INTELLIGENCE',

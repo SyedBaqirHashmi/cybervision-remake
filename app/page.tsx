@@ -1,3 +1,5 @@
+import { Directory } from '@/components/catalog/directory';
+import { pages } from '@/lib/catalog';
 import { Header } from '@/components/header';
 import { Hero } from '@/components/hero';
 import { BentoServices } from '@/components/bento-services';
@@ -50,6 +52,7 @@ export default function Page() {
     <Training />
     <Startups />
     <Company />
+    <Directory pages={pages.filter(page => page.slug !== 'disclaimer')} />
     <Contact />
   </main>
   <Footer />

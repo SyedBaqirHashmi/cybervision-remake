@@ -1,0 +1,332 @@
+{
+  "checked_at": "2026-10-13",
+  "method": "Web reader, search discovery and internal-link traversal",
+  "complete": false,
+  "limitations": [
+    "Reader snapshots range from today to months old.",
+    "No raw HTML capture; canonical tags, meta descriptions, CSS backgrounds, srcset and complete media inventory not verified.",
+    "Sitemaps unavailable; undiscovered pages may exist.",
+    "Body text not reproduced; this artifact contains route coverage, factual findings and selected media references."
+  ],
+  "pages": [
+    {
+      "url": "https://cybervision.com.pk/agri-smart-solution/",
+      "title_from_reader": "Our Agri Smart Solution for Innovative Agriculture - CyberVision",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 279,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/customer-relationship-management-system/",
+      "title_from_reader": "CRM System in Pakistan - Customer Relationship Management",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 295,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/hr-management-system/",
+      "title_from_reader": "HR Intranet | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 101,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/warehouse-management-system/",
+      "title_from_reader": "CV WMS - Top Notch Warehouse Management System | Inventory Software",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 253,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/training/",
+      "title_from_reader": "Trainings | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 204,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/internet-of-things/",
+      "title_from_reader": "IOT | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 203,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/blockchain/",
+      "title_from_reader": "Worldclass Blockchain Development Services by CyberVision International",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 229,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/dedicated-virtual-assistants/",
+      "title_from_reader": "Dedicated Virtual Assistants | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 139,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/company/",
+      "title_from_reader": "Company | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 248,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/business-consulting/",
+      "title_from_reader": "Business Consulting | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": null,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/case-studies/",
+      "title_from_reader": "Case Studies | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 312,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/business-process-automation/",
+      "title_from_reader": "Business Process Automation | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 196,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/digital-services/",
+      "title_from_reader": "Digital Marketing Services | Grow your Online Presence | CyberVision",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 284,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/web-development/",
+      "title_from_reader": "Web Development | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 235,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/app-development/",
+      "title_from_reader": "Mobile App | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 262,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/digital-training-content-creation/",
+      "title_from_reader": "Digital Training Content Creation | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 158,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/disclaimer/",
+      "title_from_reader": "Disclaimer | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": null,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/enterprise-resource-planning-system/",
+      "title_from_reader": "ERP | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 180,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/volunteer-management-system/",
+      "title_from_reader": "Volunteer Management System | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 144,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/wp-content/uploads/2024/05/Textile.pdf",
+      "title_from_reader": "PowerPoint Presentation",
+      "retrieval": "PDF text available",
+      "reader_total_lines": 605,
+      "pdf_pages": 30,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/wp-content/uploads/2024/05/Tourism-hospitality.pdf",
+      "title_from_reader": "PowerPoint Presentation",
+      "retrieval": "PDF text available",
+      "reader_total_lines": 474,
+      "pdf_pages": 34,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/wp-content/uploads/2024/05/CV-DP-BPR-Study-KPITB-One-Window-v1.3.pdf",
+      "title_from_reader": "",
+      "retrieval": "PDF text available",
+      "reader_total_lines": 3174,
+      "pdf_pages": 160,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/startup-innovation/",
+      "title_from_reader": "Startup & Innovation | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 109,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/social-media-marketing/",
+      "title_from_reader": "Social Media Marketing | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 123,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/online-reputation-management/",
+      "title_from_reader": "Online Reputation Management | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 114,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/clients/",
+      "title_from_reader": "Clients | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 224,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/free-huawei-ai-cloud-certification-training-cybervision-x-navttc-centre-of-excellence/",
+      "title_from_reader": "Free Huawei AI & Cloud Certification Training | CyberVision x NAVTTC Centre of Excellence | CyberVision International | AI, Digital Transformation, Training & Software Development",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 105,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/contactus/",
+      "title_from_reader": "Contact Us",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 50,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/software-development-services/",
+      "title_from_reader": "Services",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 170,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/products/",
+      "title_from_reader": "Products",
+      "retrieval": "Reader text available (may be cached)",
+      "reader_total_lines": 171,
+      "seo_meta_description": null,
+      "seo_canonical": null,
+      "visual_hierarchy_verified": false
+    },
+    {
+      "url": "https://cybervision.com.pk/",
+      "retrieval": "Homepage timeout; indexed excerpt available"
+    },
+    {
+      "url": "https://cybervision.com.pk/robots.txt",
+      "retrieval": "Unavailable via reader"
+    },
+    {
+      "url": "https://cybervision.com.pk/sitemap_index.xml",
+      "retrieval": "Unavailable via reader"
+    },
+    {
+      "url": "https://cybervision.com.pk/wp-sitemap.xml",
+      "retrieval": "Unavailable via reader"
+    },
+    {
+      "url": "https://cybervision.com.pk/seo-company-pakistan/",
+      "retrieval": "Reader reported 401"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://cybervision.com.pk/wp-content/plugins/revslider/admin/assets/images/dummy.png",
+      "verification": "Asset URL resolved by web reader; reuse rights and original alt text not verified."
+    },
+    {
+      "url": "https://cybervision.com.pk/wp-content/uploads/2020/11/LUMS_490x366.jpeg",
+      "verification": "Asset URL resolved by web reader; reuse rights and original alt text not verified."
+    },
+    {
+      "url": "https://cybervision.com.pk/wp-content/uploads/2020/12/FAO.jpg",
+      "verification": "Asset URL resolved by web reader; reuse rights and original alt text not verified."
+    },
+    {
+      "url": "https://cybervision.com.pk/wp-content/uploads/2020/12/PSDF.jpg",
+      "verification": "Asset URL resolved by web reader; reuse rights and original alt text not verified."
+    },
+    {
+      "url": "https://cybervision.com.pk/wp-content/uploads/2020/11/1-1-e1606980703354.png",
+      "verification": "Asset URL resolved by web reader; reuse rights and original alt text not verified."
+    },
+    {
+      "url": "https://cybervision.com.pk/wp-content/uploads/2024/12/CVI-UNDP.png",
+      "verification": "Asset URL resolved by web reader; reuse rights and original alt text not verified."
+    }
+  ]
+}

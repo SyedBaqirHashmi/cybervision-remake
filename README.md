@@ -1,6 +1,6 @@
 # CyberVision International — Website Remake
 
-A complete Next.js App Router implementation with a dark design system, an interactive React Three Fiber hero, original project artwork, accessible product tabs, an animated innovation reel, impact counters, training and startup sections, and a multi-step consultation flow.
+A complete Next.js App Router implementation with a dark design system, an architectural SVG hero, original project artwork, accessible product tabs, an animated innovation reel, impact counters, training and startup sections, and a multi-step consultation flow.
 
 GitHub destination: https://github.com/SyedBaqirHashmi/cybervision-remake
 
@@ -43,7 +43,6 @@ components/
   hero/
     index.tsx                Server-rendered hero and primary calls to action
     network-visual.tsx       Progressive enhancement and static fallback
-    neural-scene.tsx         Bounded 3D particle network
     innovation-reel.tsx      Original four-scene motion reel and controls
   bento-services.tsx         Pointer-driven light effects and service links
   metrics.tsx                One-time counters with screen-reader values
@@ -71,15 +70,15 @@ tailwind.config.js           Colour, type, animation and glow extensions
 
 | Token | Use |
 | --- | --- |
-| `obsidian` / `#030712` | Primary canvas |
-| `midnight` / `#0f172a` | Surface and form backgrounds |
-| `electric` / `#06b6d4` | Decorative glow and borders |
-| `neon` / `#6366f1` | Decorative indigo highlights |
-| `cyan-200` / `#a5f3fc` | Accessible bright calls to action and text |
-| `slate-100` / `#f1f5f9` | Main text |
-| `slate-400` / `#94a3b8` | Supporting text on dark surfaces |
+| `obsidian` / `#101010` | Primary canvas |
+| `midnight` / `#1c1c1c` | Surface and form backgrounds |
+| `champagne-300` / `#dfc596` | Restrained highlights and borders |
+| `bronze-400` / `#c39b79` | Secondary warm accents |
+| `champagne-200` / `#ead8b8` | Accessible bright calls to action and text |
+| `slate-100` / `#f2efea` | Main text |
+| `slate-400` / `#b4aea5` | Supporting text on dark surfaces |
 
-Inter is served from the application through `@fontsource/inter`; there are no Google Fonts requests. The display scale is fluid from 320px to desktop. Bright cyan buttons use dark text. Decorative saturated cyan and indigo are not used as small body text.
+Inter is served from the application through `@fontsource/inter`; there are no Google Fonts requests. The display scale is fluid from 320px to desktop. Champagne buttons use charcoal text. Bronze is reserved for secondary accents.
 
 Motion responds to `prefers-reduced-motion`. Interactive targets expose focus rings and active states. The page uses real headings, labelled form controls, native radio inputs and checkboxes, a native modal dialog, roving tab focus, and error/status announcements.
 
@@ -131,7 +130,7 @@ flowchart LR
   Email --> Inbox[Approved CyberVision inbox]
 ```
 
-Three.js is split into a dynamic chunk and starts after the hero enters view. Data Saver, reduced motion and unavailable WebGL keep the SVG fallback. The network contains 90 points and a bounded set of edges; DPR is capped at 1.5. Rendering pauses when offscreen, when the tab is hidden, or when the visitor pauses motion. No post-processing or large 3D models are used.
+The hero uses SVG paths drawn once on viewport entry. Optional card tilt is dynamically imported and disabled for reduced motion, coarse pointers, hidden tabs and offscreen content. No WebGL runtime is shipped.
 
 Project images have explicit dimensions and lazy loading. The page loads no analytics scripts or video embeds. Use your CDN’s caching for Next.js static assets. A Node-capable host is required for the form endpoint; this application is not a GitHub Pages static export.
 
@@ -175,3 +174,27 @@ The visible counters use company-published figures: 40,000+ youth trained, 850+ 
 5. **Release:** push to `SyedBaqirHashmi/cybervision-remake`, deploy to a Node-capable host, set the canonical origin, verify the real domain and email delivery, then publish.
 
 See `VALIDATION.md` for checks actually completed in the current workspace.
+
+## Multi-page content migration (13 October 2026)
+
+The remake now includes 28 original source slugs, a `/resources` library with three original PDF links, and the existing homepage/privacy routes. The route renderer is `app/[slug]/page.tsx`; typed content comes from `lib/catalog.ts` and `data/catalog.json`. Every route receives a distinct title, description and canonical URL. The sitemap enumerates the content routes.
+
+See `docs/detailed-content-map.md` for the page-to-page mapping and `docs/detailed-crawl-coverage.json` for retrieval evidence and unresolved gaps. Source text was adapted into original concise copy. This is not a loss-free raw archive. The original reports contain 224 pages; all 4,253 available reader text lines were traversed, but image-only material was not fully OCR-reviewed.
+
+The latest visual direction replaces cyan/indigo with champagne/bronze and neutral charcoal. Three.js and React Three Fiber have been removed. The hero uses SVG line drawing; Vanilla Tilt is dynamically imported for visible cards only on fine-pointer devices without reduced-motion preferences. Source images preserve their full bounds and include a failed-request fallback. The report gallery uses scoped scroll snapping on larger viewports; mobile and reduced-motion views remain in ordinary document flow.
+
+### Run and verify
+
+Use Node 22.18+:
+
+```sh
+npm install
+npm run dev
+npm run check
+npx playwright install chromium
+npm run test:e2e
+```
+
+Set `NEXT_PUBLIC_SITE_URL` to the actual deployment origin before building. Inquiry delivery still needs the Resend/Upstash environment values described above. Without those values the form reports unavailable delivery and provides direct contact options; it never pretends a message was sent.
+
+The selected source images remain externally hosted and may be unavailable if the original server is down. Their original URLs are exposed as fallback links. PDF buttons open the source documents instead of claiming to host local copies.
